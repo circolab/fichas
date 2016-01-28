@@ -1,0 +1,33 @@
+---
+date:         30/09/2015
+place:        FabLab León
+title:        E-textiles. Introducción a Wearable Tech
+description:  Creación de un Wearable utilizando componentes básicos de electrónica flexible
+goals:        |
+              Introducción a los circuitos simples
+              Primer contacto con el campo de los textiles y la electronica
+              Conocer nuevos materiales como el hilo conductor
+              Introducción al Diseño de interacción
+              Introducción a la filosofía del código abierto y comunidades online.
+steps:        |
+albumUrl:
+              Introducción de componentes Kit de materiales e-textiles
+              Iniciación de conceptos básicos de electrónica ( circuito simple, paralelo y en serie)
+              Realización de un proyecto de textiles y electronica intentando resolver un problema ficticio o de la vida diaria
+              Una vez realizado el primer circuito mostrar cómo se pueden utilizar esos mismos componentes para crear sensores DIY
+materials:    |
+              hilo conductor
+              aguja
+              batería 3V
+              trozos de tela
+              leds de colores
+              motores
+              tijeras
+nextstep:     |
+              Realizar un prototipo más complejo e interactivo utilizando textiles utilizando técnicas de Design Thinking
+duration:     3 horas
+age:          5 a 50
+age_recomm:   8 >
+number:       40
+images:       [img1.png]
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157658918402528

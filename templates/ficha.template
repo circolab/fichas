@@ -1,0 +1,29 @@
+<div class = "ficha pagina">
+  <div class = "main">
+    <h1> {{title}} </h1>
+    <div class="description"> <h2> Descripción </h2>  <p> {{description}} </p> </div>
+    <div class = "goals"> <h2> Metas </h2> <p>{{goals}} </p> </div>
+    <div class = "steps"> <h2> Pasos </h2>  <p>{{steps}} </p> </div>
+    <div class = "materials"> <h2> Materiales </h2>  <p>{{materials}} </p> </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>{{nextstep}} </p> </div>
+    <div class = "references"> <h2> Referencias </h2> <p> <p> {{references}} </p> </div>
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="{{albumUrl}}"> {{albumUrl}}  </a>  </div>
+    <div class = "images">
+      <ul class = "img_list">
+        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
+      </ul>
+      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
+    </div>
+  </div>
+  <div class = "data">
+    <p> <strong> Fecha </strong> {{date}} </p>
+    <p> <strong> Lugar </strong> {{place}} </p>
+    <p> <strong> Duración </strong> {{duration}} </p>
+    <p> <strong> N. participantes </strong> {{number}} </p>
+    <p> <strong> Edad </strong> {{age}} </p>
+    <p> <strong> Edad Recomendada </strong> {{age_recomm}}
+    <p> <strong> Dificultad </strong> {{difficulty}}
+  </div>
+  <p class = "bottom"> Hola </p>
+</div>
+<p style="page-break-after:always;"></p>

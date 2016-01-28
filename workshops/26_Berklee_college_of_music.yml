@@ -1,0 +1,32 @@
+---
+date:         20/1/2015
+place:        Berklee college of Music, Valencia
+title:        Introducción a fabricación digital
+description:  |
+              Introdución a la fabricación digital para una posterior implementación en sus prácticas artísticas / musicales
+goals:        |
+              Diseño de prototipos
+              Primer contacto con el diseño gráfico vectorial
+              Introducción a la filosofía del código abierto y comunidades online.
+              Que es la fabricación digital y funcionamiento de una cortadora laser
+steps:        |
+              Diseño de un objeto 3D usando elementos de 2D
+              Uso de Inkscape
+              Realización de un prototipo utilizando la cortadora láser
+materials:    |
+              Leds RGB
+              Pegamento
+              Portátiles
+              Proyector
+              Cortadora láser
+              Metacrilato
+              DM
+              Cartón
+nextstep:     |
+              Implementación en sus proyectos musicales
+duration:     4h
+age:          20 - 40
+age_recomm:   8 >
+number:       30
+images:       [img1.png, img2.png]
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157661408300306

@@ -1,0 +1,26 @@
+---
+date:         30/11/2015
+place:        Universidad de Granada, Granada
+title:        Hackathon
+description:  |
+              Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
+              Grupos de 2 personas.
+              Iniciamos el taller enseñando las características de la placa miniblip. Propusimos la creación de varios ejemplos para aprender a utilizarla.
+              Creamos un r epositorio en github donde pudieramos participar y compartir toda esa información, verificando los beneficios del conocimiento libre y distribuido.
+              Al finalizar el evento-taller todos expusieron  lo que habian realizado.
+goals:        |
+              Primer contacto con una electronica nueva.
+              Desarrollar nuevas herramientas para facilitar su programación, asi como ejemplos para utilizarla.
+materials:    |
+              miniblip
+              portatiles
+content:   |
+              Utilización de la miniblip.
+              Código libre.
+nextstep:     |
+              Creación de herramientas de programacion y ejemplos más complejos.
+duration:     2 días
+age:          18-50
+age_recomm:   18->
+number:       40
+images:       [img1.png, img2.png]

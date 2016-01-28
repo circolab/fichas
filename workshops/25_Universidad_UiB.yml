@@ -1,0 +1,28 @@
+---
+date:         18/11/2015
+place:        U.Ingenieria, Universidat de les Illes Baleares
+title:        Modelado e impresión 3D
+description:  |
+              Introducción al modelado e impresión 3D
+goals:        |
+              Primer contacto con el diseño de modelos 3D con herramientas libres FreeCAD y Cura
+              Utilización de impresoras 3D
+              Movimiento RepRap
+steps:        |
+              Presentación del equipo y de los participantes preguntando qué conocimientos tienen sobre el tema y qué esperan aprender.
+              Explicación de funcionamiento de una impresora 3d
+              Utilización de FreeCad mediante pequeños ejemplos
+              Utilización de Cura
+              Reto en el cual los participantes tenían que diseñar e implementar un robot con superpoderes
+materials:    |
+              Portátiles
+              Proyector
+              Impresoras 3D
+nextstep:     |
+              Diseño de piezas con utilización de funciones más complejas
+duration:     5 horas de taller + 5 de impresión
+age:          18 - 50
+age_recomm:   8 >
+number:       50
+images:       [img1.png, img2.png]
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157660640465578

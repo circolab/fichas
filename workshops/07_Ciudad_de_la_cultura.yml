@@ -1,0 +1,33 @@
+---
+date:         03/10/2015
+place:        Rapaciños, Ciudad de la Cultura, Santiago de Compostela
+title:        Mini talleres STEAM / Divulgacion
+description:  Actividades creativas y divulgativas para enseñar conceptos básicos la tecnología contemporánea
+goals:        |
+              Primer contacto con el funcionamiento de los ordenadores
+              Primer contacto con la impresión 3D
+              Primer contacto con la electrónica básica de un modo creativo ( soft circuits, dibujar circuitos)
+steps:        |
+              División en 3 grupos alternando actividad.
+
+              1. Muestra del funcionamiento de la mano biónica y la impresora 3D (Divulgativo)
+              2. Introducción al funcionamiento de los ordenadores y la programación para niños a traves del teatro
+              3. Dibujo y realización de una postal interactiva / Realización de un circuito simple
+              En cada una de las actividades se les pregunta a los participantes pequeñas cuestiones para que descubran ellos mismos el funcionamiento de la tecnología
+materials:    |
+              Componentes electrónicos del kit de robótica BQ
+              Electrónica básica: leds, pilas de botón, motores dc
+              Cinta de cobre
+              Hilo conductor
+              Pilas de 3V
+              Móviles
+              Impresoras 3D
+              Portátiles
+nextstep:     |
+              Introducción a Scratch
+duration:     4h
+age:          2-14
+age_recomm:   8 >
+number:       70
+images:       [img1.png]
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659059418529

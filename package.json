@@ -1,0 +1,14 @@
+{
+  "name": "yaml2pdf",
+  "version": "0.1.0",
+  "description": "Transform yaml files to PDF using a html+CSS template",
+  "dependencies": {
+    "js-yaml": "^3.5.2",
+    "mustache": "^2.2.1"
+  },
+  "engines": {
+    "node": "5.4.1"
+  },
+  "author": "victornomad",
+  "license": "MIT"
+}

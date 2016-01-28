@@ -1,0 +1,34 @@
+---
+date:         17/10/2015
+place:        Tabakalera, Hirikilabs
+title:        Costura y electrónica
+description:  |
+              Creación de un bordado interactivo
+goals:        |
+              Realizar en el marco de CIRCOLAB una actividad intergeneracional
+              Iniciación a la electrónica básica y los e-textiles
+              Realización de un circuito básico
+              Primer contacto con nuevos materiales: Hilo conductor de electricidad
+              Trabajo en equipo
+              Aprendizaje intergeneracional
+steps:        |
+              Introducción a los textiles y la electrónica
+              Propuesta para realizar un bordado en el que se incluya un circuito electrónico
+              Realización de un boceto
+              Diseño en punto de cruz en papel del diseño
+              ¡A bordar!
+materiales:   |
+              leds
+              pilas de botón
+              motores dc
+              Hilo conductor
+              tela de Panamá
+nextstep:     |
+              Compartir las ideas
+              Mejoras e implementación
+duration:     3h
+age:          16 - 75
+age_recomm:   8 >
+number:       40
+images:       [img1.png]
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157660006969662

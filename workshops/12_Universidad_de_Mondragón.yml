@@ -1,0 +1,35 @@
+---
+date:         15/10/2015
+place:        Universidad de Mondragón
+title:        Diseño de Producto / Regreso al futuro
+description:  Creación de un producto usando técnicas de prototipado rápido
+goals:        |
+              Introducción a Arduino, Impresión 3D y Cortadora láser
+              Primer contacto con la filosofía del código abierto y comunidades online
+              Trabajo en equipo
+              Introducción al prototipado rápido
+              Diseño de producto
+steps:        |
+              División de la clase en grupos de 4 o 5
+              Propuesta para realizar un diseño de producto que no existe
+              Realización de prototipo: Bocetos, selección de materiales/tecnología y ejecución
+              Presentaciones al estilo "elevator pitch"
+materials:    |
+              Cartones
+              Pipe clenaers, ojitos, pompones de colores, plastilina decoraciones craft
+              Pinturas y hojas
+              Palitos
+              Electrónica básica: leds, pilas de botón, motores dc
+              Copper tape e hilo conductor
+              Plastilina
+              Impresoras 3D
+              Cortadora laser
+              Componentes electrónicos del kit de robótica BQ
+nextstep:     |
+              Iteración en el prototipo
+duration:     8 horas
+age:          18 - 22
+age_recomm:   8 >
+number:       40
+images:       [img1.png]
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659534323298

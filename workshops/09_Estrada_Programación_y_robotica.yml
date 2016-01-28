@@ -1,0 +1,30 @@
+---
+date:         7/10/2015
+place:        Estrada, Pontevedra
+title:        Programación y robótica
+description:  Introducción a la electrónica programable
+goals:        |
+              Primer contacto con electrónica y programación de microcontroladores.
+steps:        |
+              Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
+              Grupos de 4-5 personas con un ordenador con un Kit de electrónica y código programado para usar botones, potenciometros, tiras de leds y motores.
+              Conceptualización de la idea que quieren crear con una historia usando papel y rotuladores
+              Soldar tiras de leds
+              Creación del artilugio con materiales de artesanía y mostrando dónde modificar el código para cambiar el comportamiento
+              Presentación de cada proyecto por grupos.
+materials:    |
+              Componentes electrónicos del kit de robótica BQ
+              Pegamento
+              Pipe cleaners, ojitos, pompones de colores y decoraciones craft
+              Pinturas y hojas
+              Palitos
+              Portátiles
+              Proyector
+nextstep:     |
+              Creación de objetos con componentes más complejos y su programación.
+duration:     3h
+age:          12-16
+age_recomm:   10 >
+number:       60
+images:       [img1.png]
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659242764459

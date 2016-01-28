@@ -1,0 +1,26 @@
+---
+date:         3/11/2015
+place:        Robotaires, Gerona
+title:        Taller Protocoder <-> Zowi
+description:  |
+              Introducción a Protocoder y la API de programación de Zowi
+goals:        |
+              Creación de controladores personalizados usando la herramienta de prototipado móvil Protocoder
+steps:        |
+              Grupos de 2 con un Zowi y un dispositivo móvil
+              Explicación de Protocoder y live coding
+              Conexión de Zowi al móvil y envío de comandos mediante Bluetooth
+              Carrera final de Zowis
+materials:    |
+              Portátiles
+              Dispositivos Android
+              Proyector
+              Zowi
+nextstep:     |
+
+duration:     3h
+age:          12 - 18
+age_recomm:   >
+number:       10
+images:       [img1.png]
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157658495591374

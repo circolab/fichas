@@ -1,0 +1,36 @@
+---
+date:         24/9/2015
+place:        Instituto Politécnico Cristo Rey, Valladolid
+title:        Introducción a Processing y a la Impresión 3d
+description:  |
+              El taller pretende introducir a los participantes al mundo de la creación digital procedural y al modelado e impresión 3d
+goals:        |
+              Poner en práctica conceptos de geometría
+              Primer contacto con programación e impresión 3d
+              Trabajo en equipo
+              Introducción a diseño gráfico procedural con Processing Funciones rect() ellipse(), fill(), stroke(), random(), map()
+              Impresión 3d: Funcionamiento de una impresora 3d. TinkerCAD, CURA
+              Introducción a la filosofía del código abierto y comunidades online
+              ¿Qué es el software libre?
+steps:        |
+              División de la clase en 2 grupos con subgrupos de 3 alternando actividad después de 1h 30mins con descanso entre medias
+              Grupo 1: Iniciación de conceptos básicos de programación utilizando
+              la herramienta Processing.org para crear un "smile" que cambia en cada ejecucion
+              Minipresentación al resto del grupo.
+              Grupo 2: Diseño de una pieza en 3d usando la herramienta online TinkerCAD y
+              el funcionamiento y puesta en marcha de las impresoras 3d.
+              Minipresentación al resto del grupo.
+              Cambio de grupo.
+materials:    |
+              Impresoras 3D
+              Portátiles
+              Proyector
+nextstep:     |
+              Imprimir pieza 3d, iterar.
+              Processing: introducción al movimiento usando los metodos setup(), draw(), mouseX/mouseY, bucles
+duration:     3 a 4 horas
+age:          12
+age_recomm:   8 >
+number:       30
+images:       [img1.png]
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659173115381
