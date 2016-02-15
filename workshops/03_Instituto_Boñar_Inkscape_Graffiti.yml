@@ -2,31 +2,34 @@
 date:         29/9/2015
 place:        Instituto Pablo Díez Boñar, León
 title:        Inkscape, cortadora láser y graffiti
-description:  |
-              División de la clase en 3 grupos en paralelo.
-              Bocetos a papel y lápices. Creación de hagstag o idea que quieren plasmar.
-              Paso a dibujo vectorial mediante Inkscape Dibujos básicos,trazo de líneas, texto
-              Corte láser del stencil en cartulina para hacer el graffiti.
-              Minipresentación al resto del grupo.
-              Cambio de grupo.
-              ¿Qué es el software libre?
+description:  Creación de un graffiti usando plantillas hechos con cortadora laser
 goals:        |
-              ¿Cómo plasmar una idea en papel y luego ejecutarla?
-              Primer contacto con diseño de dibujos vectoriales.
-              ¿Qué son vectores?
-              ¿Cómo funciona una cortadora laser?
-              Trabajo en equipo.
+              - ¿Cómo plasmar una idea en papel y luego ejecutarla?
+              - Primer contacto con diseño de dibujos vectoriales.
+              - ¿Qué son vectores?
+              - ¿Cómo funciona una cortadora laser?
+              - Trabajo en equipo.
+steps:        |
+              1. División de la clase en 3 grupos en paralelo.
+              2. Bocetos a papel y lápices. Creación de hagstag o idea que quieren plasmar.
+              3. Paso a dibujo vectorial mediante Inkscape Dibujos básicos,trazo de líneas, texto
+              4. Corte láser de la plantilla en cartulina para hacer el graffiti.
+              5. Minipresentación al resto del grupo.
+              6. Cambio de grupo.
+              7. ¿Qué es el software libre?
 materials:    |
-              Cortadora láser
-              Rotuladores y hojas
-              Pinturas en spray
-              Cartulinas
-              Portátiles con Inkscape instalado
+              - Cortadora láser
+              - Rotuladores y hojas
+              - Pinturas en spray
+              - Cartulinas
+              - Portátiles con Inkscape instalado
 nextstep:     |
               Diseño vectorial avanzado utilizando Inkscape.
 duration:     3h
 age:          14
 age_recomm:   8->
 number:       30
-images:       [img1.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659223601896
+img1:         https://farm6.staticflickr.com/5737/21645963688_eac99a1a3d_z_d.jpg
+img2:         https://farm1.staticflickr.com/673/21645765960_e80423418d_z_d.jpg
+img3:         https://farm1.staticflickr.com/586/21807680876_fb9da21bc9_z_d.jpg

@@ -1,0 +1,29 @@
+---
+date:         11/12/2015
+place:        Salesianos, Puertollano
+title:        Sonido, imagen y programación
+description:  Creación de un sintentizador musical y visual usando Processing y Arduino
+goals:        |
+              - Programación de electronica programable con Arduino
+              - Programación para generar contenido visual con Processing
+              - Introducción a la síntesis de sonido
+steps:        |
+              1. Presentación del equipo y de los participantes preguntando sus conocimientos sobre electronica y programación.
+              2. Grupos de 2-3 personas.
+              3. Explicación de los componentes botón y potenciometro y el uso de estos con Arduino IDE.
+              4. Introducción a la programación con Processing.
+              5. Construcción de un sintetizador uniendo la parte hechas con Arduino y Processing
+materials:    |
+              - Componentes electrónicos del kit de robótica BQ
+              - Ordenadores
+              - Proyector
+nextstep:     |
+              Creación de un sintetizador más sofisticado. Creación de una caja para el controlador usando diseño e impresión 3d
+duration:     3h
+age:          16-24
+age_recomm:   12 >
+number:       30
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157661826129460
+img1:         https://farm1.staticflickr.com/773/23456374730_2caaf70609_z_d.jpg
+img2:         https://farm1.staticflickr.com/781/23752122965_b29419da00_z_d.jpg
+img3:         https://farm1.staticflickr.com/742/23643512002_fd5453dcb5_z_d.jpg

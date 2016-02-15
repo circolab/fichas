@@ -5,31 +5,30 @@ title:        We are the robots
 description:  |
               Creación de un disfraz robótico usando materiales de manualidades y circuitos electrónicos
 goals:        |
-              Primer contacto con la electrónica básica y soft circuits
-              Introducción a la tecnología digital en una escuela de arte
-              Introudcción al prototipado rápido
-              Nuevos materiales ( adhesivo de cobre, hilo conductor, ...)
+              - Primer contacto con la electrónica básica y soft circuits
+              - Introducción a la tecnología digital en una escuela de arte
+              - Introducción al prototipado rápido
+              - Nuevos materiales ( adhesivo de cobre, hilo conductor, ...)
 steps:        |
-              Explicación de cómo crear un circuito electrónico
-              Realización de un disfraz con electrónica
-              Introducción a la electrónica básica
-              Presentación y video
+              1. Explicación de cómo crear un circuito electrónico básico
+              2. Realización de un disfraz con electrónica
+              3. Presentación y video
 materials:    |
-              Miniblip
-              Cartones
-              Pipe cleaners, ojitos, pompones de colores y decoraciones craft
-              Rotuladores y hojas
-              Palitos
-              Electrónica básica: leds, pilas de botón, motores dc
-              Adhesivo de cobre
-              Componentes del Kit de robótica de BQ
-              Hilo conductor
+              - Cartones
+              - Materiales de manualidades
+              - Rotuladores y hojas
+              - Palitos
+              - Electrónica básica: leds, pilas de botón, motores dc
+              - Adhesivo de cobre
+              - Componentes del Kit de robótica de BQ preprogramados
+              - Hilo conductor
 nextstep:     |
-              Realización de un disfraz
-              Participación en un video para circolab
+              Introducción a la electrónica digital programable
 duration:     6h
 age:          20-50
-age_recomm:   8->
+age_recomm:   8 >
 number:       70
-images:       [img1.png, img2.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157661158530720
+img1:         https://farm6.staticflickr.com/5635/23352812425_1882c64c5c_z_d.jpg
+img2:         https://farm6.staticflickr.com/5681/22984860979_5b56cd3ddc_z_d.jpg
+img3:         https://farm6.staticflickr.com/5633/22984780489_c482cbb783_z_d.jpg

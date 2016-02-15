@@ -81,6 +81,15 @@ table {
     line-height: 1.5em;
     font-weight: 300;
   }
+
+  p {
+      padding: 0;
+  }
+
+  div {
+    padding: 0.5em 0em;
+  }
+
   h1 {
 		color: rgb(234, 72, 100);
 		font-size: 2em;
@@ -99,11 +108,44 @@ table {
     height: 337mm;
 	}
 
+  .magentaBg {
+      background-color: #ea4864;
+  }
+
+  .portada {
+    color: white;
+    font-size: 5em;
+    padding: 5em 0em;
+    text-align: center;
+  }
+
+  .intro {
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 1.5em;
+  }
+
+  .introol {
+    color: white;
+    font-size: 1em;
+    padding-bottom: 1.5em;
+    font-weight: 500;
+    list-style: decimal inside;
+  }
+
+  .introol ul {
+    list-style: inside none circle;
+    margin-left: 2em;
+  }
+
 	.bottom {
 		border-top: 3px solid #ea4864;
 		position:absolute;
 		width: 100%;
 		bottom:0px;
+    font-family: 'PFDinMonoMedium';
+    color: #ea4864;
 	}
 
 	strong {
@@ -115,9 +157,9 @@ table {
     width: calc(100% - 292px);
 	}
 
-	p {
-	  padding: 0.1em 0em 0.8em 0em;
-	}
+  .mainintro {
+    padding: 5em 0em 2em 5em;
+  }
 
 	.data {
 		position: absolute;
@@ -133,6 +175,41 @@ table {
 		padding: 1em 0em;
 
 	}
+
+  .materials li {
+    display:inline-block;
+    border-bottom: 2px dotted #ea4864;
+    margin: 0px 10px 0px 0px;
+  }
+
+  ol {
+      counter-reset: item;
+      list-style: none;
+      list-style-position: inside;
+  }
+
+  ol li {
+   counter-increment: item;
+  }
+
+  .images {
+    text-align: center;
+  }
+
+
+  .goals ul li:before {
+    color: rgb(234, 72, 100);
+    font-family: 'PFDinMonoMedium';
+    content: "-";
+    margin-right: 5px;
+  }
+
+  ol li:before {
+      color: rgb(234, 72, 100);
+      font-family: 'PFDinMonoMedium';
+      content:counter(item);
+      margin-right: 5px;
+  }
 
 </style>
 <body>

@@ -1,0 +1,38 @@
+---
+date:         14/11/2015
+place:        3D SOMA
+title:        Hackea la Oca
+description:  Utilizar juegos tradicionales y hackearlos usando elementos contemporáneos
+goals:        |
+              - Colaboración y trabajo en equipo
+              - Introducción al juego de la oca
+              - Primer contracto con la electrónica (soft circuits)
+              - Diferencias de un circuito en serie y otro en paralelo
+              - ¿Cómo se hace un botón?
+              - Diseño de nuevas reglas de juego
+              - Introducir elementos interactivos con electrónica
+              - Jugar varias partidas con el juego propuesto ( rotativo)
+steps:        |
+              1. Grupos de 5 con un juego de la oca y diversos Materiales
+              2. Jugar al juego de la oca una vez para conocer las reglas
+              3. Explicar como funcionan los circuitos simples a los padres / mentores
+              4. Mentores explican a los chic@s
+              5. Pensar en nuevas reglas e interacciones
+              6. Implementación
+              7. Jugar de nuevo al juego de la oca
+materials:    |
+              - Electrónica básica: leds, pilas de botón, motores dc
+              - Adhesivo de cobre
+              - Pegamento
+              - Juego de la Oca
+              - Palitos
+nextstep:     |
+              Compartir las ideas. Mejoras e implementación.
+duration:     3h
+age:          8-50
+age_recomm:   8 >
+number:       30
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157660586022569
+img1:         https://farm1.staticflickr.com/709/22677081717_99da8338e7_z_d.jpg
+img2:         https://farm1.staticflickr.com/644/22677046578_cd381731b3_z_d.jpg
+img3:         https://farm1.staticflickr.com/741/22474218093_e30106d8b9_z_d.jpg

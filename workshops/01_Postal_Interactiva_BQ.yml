@@ -1,0 +1,32 @@
+---
+date:         18/09/2015
+place:        BQ, Las Rozas
+title:        Postal Interactiva
+description:  |
+              Creación de una postal interactiva con materiales electrónicos flexibles
+goals:        |
+              - Primer contacto con la electrónica a través de materiales flexibles
+              - Aprender como están hechos los circuitos simples
+              - Estos materiales pueden llegar a ser más atractivos que los tradicionales para las personas que no están acostumbradas a la electrónica
+steps:        |
+              1. Se reparte el kit con todos los materiales.
+              2. El taller puede ser autoguiado siguiendo las instrucciones de la Postal.
+              3. La postal indica un circuito a construir, pero los participantes pueden modificarlo a su gusto y hacerla suya utilizando los lápices de colores
+              4. Normalmente los participantes se suelen equivocar con la polaridad de la pila. Es interesante hacerles preguntas para que ellos mismos busquen la solución.
+materials:    |
+              - Postal
+              - Pila de botón
+              - Leds
+              - Cinta de cobre
+              - Clip
+              - Lápices de colores
+nextstep:     |
+              Ejercicio de creación de sensores utilizando materiales similares.
+duration:     20 minutos
+age:          20 - 30
+age_recomm:   5 >
+number:       30
+img1:         https://farm6.staticflickr.com/5758/21937863212_a481fc73f8_z_d.jpg
+img2:         https://farm6.staticflickr.com/5634/21328987733_133e018f96_z_d.jpg
+img3:         https://farm6.staticflickr.com/5777/21923800326_d452c41778_z_d.jpg
+albumUrl:     ""

@@ -3,29 +3,30 @@ date:         10/10/2015
 place:        Araba Encounter, Vitoria
 title:        Diseño y creación de un estandarte o bandera
 description:  Creación de banderas usando técnicas de fabricación digital
-steps:        |
-              Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
-              Grupos de 2 personas.
-              Introducción a las máquinas de coser, cortadora de vinilos y cortadora laser e introducción a la fabricación digital
-              Elaboración de un boceto y posterior diseño final
-              Creación de ese diseño con las herramientas
-              Presentación de cada bandera por grupos.
 goals:        |
-              Primer contacto con máquinas de fabricación digital / analógicas.
+              - Primer contacto con máquinas de fabricación digital / analógicas.
+steps:        |
+              1. Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
+              2. Grupos de 2 personas.
+              3. Introducción a las máquinas de coser, cortadora de vinilos y cortadora laser e introducción a la fabricación digital
+              4. Elaboración de un boceto y posterior diseño final
+              5. Creación de ese diseño con las herramientas
+              6. Presentación de cada bandera por grupos.
+
 materials:    |
-              varillas
-              Tela (bolsas circolab)
-              Pegamento y bridas
-              Pinturas y hojas
-              Cortadora de vinilos
-              Dobladora de varillas
-              Máquina de cosér
-              Cortadora láser
-              Rotuladores y hojas
-              Pinturas en spray
-              Cartulinas
-              Portátiles
-              Proyector
+              - Varillas
+              - Tela (bolsas circolab)
+              - Pegamento y bridas
+              - Pinturas y hojas
+              - Cortadora de vinilos
+              - Dobladora de varillas
+              - Máquina de cosér
+              - Cortadora láser
+              - Rotuladores y hojas
+              - Pinturas en spray
+              - Cartulinas
+              - Portátiles
+              - Proyector
 content:      |
               Utilizacion de Inkscape: nivel básico
               Máquina de cosér
@@ -38,5 +39,7 @@ duration:     3h
 age:          18-60
 age_recomm:   12 >
 number:       10
-images:       [img1.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157657374941784
+img1:         https://farm1.staticflickr.com/596/22087825235_f325a8d16a_z_d.jpg
+img2:         https://farm6.staticflickr.com/5827/22097832021_b9533590f5_z_d.jpg
+img3:         https://farm6.staticflickr.com/5702/22097831081_1c0640066e_z_d.jpg

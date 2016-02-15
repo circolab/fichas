@@ -4,29 +4,30 @@ place:        Plaza Mayor Vegas del Condado, León
 title:        Kachipla
 description:  Crear un juguete combinando fabricación digital y manual
 goals:        |
-              Fomentar la imaginación
-              Desarrollo de la capacidad motora
-              Mostrar como un juguete se construye con distintas técnicas (máquinas y personas)
+              - Fomentar la imaginación
+              - Desarrollo de la capacidad motora
+              - Mostrar como un juguete se construye con distintas técnicas (máquinas y personas)
 steps:        |
-albumUrl:
-              Introducción sobre el funcionamiento de las máquinas que llevamos a bordo.
-              División de la clase en 3 grupos en paralelo.
-              Construcción de un superheroe utilizando materiales generados a partir de las maquinas de fabricación digital junto con materiales blandos y de manualidades.
-              Creación de una historia asociada al superheroe construido y un mural para desarrollar su historia.
-              Presentación final donde los chic@s presentarán su historia y a su superhéroe en el escenario.
+              1. Introducción sobre el funcionamiento de las máquinas que llevamos a bordo.
+              2. División de la clase en 3 grupos en paralelo.
+              3. Construcción de un superheroe utilizando materiales generados a partir de las maquinas de fabricación digital junto con materiales blandos y de manualidades.
+              4. Creación de una historia asociada al superheroe construido y un mural para desarrollar su historia.
+              5. Presentación final donde los chic@s presentarán su historia y a su superhéroe en el escenario.
 materials:    |
-              Impresoras 3D
-              Piezas impresas
-              Pegamento
-              Pipe clenaers, ojitos, pompones de colores y decoraciones craft
-              Pinturas y hojas
-              Palitos
-              Papel contínuo
+              - Impresoras 3D
+              - Piezas impresas
+              - Pegamento
+              - Pipe clenaers, ojitos, pompones de colores y decoraciones craft
+              - Pinturas y hojas
+              - Palitos
+              - Papel contínuo
 nextstep:     |
               Utilización de materiales que permitan más opciones creatividas.
 duration:     3h
 age:          6-12
 age_recomm:   6->
 number:       30
-images:       [img1.png, img2.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157656955299484
+img1:         https://farm1.staticflickr.com/600/21646560848_13b8835e72_z_d.jpg
+img2:         https://farm6.staticflickr.com/5663/21646551648_aa30522ab0_z_d.jpg
+img3:         https://farm1.staticflickr.com/773/21843988501_49ba2ac882_z_d.jpg

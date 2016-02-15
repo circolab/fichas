@@ -1,0 +1,27 @@
+---
+place:        IES Juniper Serra
+title:        Sensores capacitivos
+description:  Creación de sensores capacitivos para sonificar objetos
+goals:        |
+              - Introducción a la electrónica programable
+              - Electrónica como herramienta creativa
+steps:        |
+              1. Creación de Grupos
+              2. Creación del un primer "Hola Mundo" usando la BQZum
+              3. Explicación del funcionamiento de los sensores capacitivos
+              4. Creación de una interfaz interactiva con globos y papel albal
+              5. Presentación
+materials:    |
+              - Kit de electrónica BQ preprogramada
+              - Papel albal
+              - Ordenadores
+nextstep:     |
+              Explorar con mayor profundidad las posibilidades que ofrece un teléfono
+duration:     3h
+age:          14-16
+age_recomm:   12 >
+number:       25
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157661390665272
+img1:         https://farm1.staticflickr.com/715/22731619297_40719097e1_z_d.jpg
+img2:         https://farm6.staticflickr.com/5669/22829902340_875cd7a94e_z_d.jpg
+img3:         https://farm6.staticflickr.com/5813/22731692638_118259c42a_z_d.jpg

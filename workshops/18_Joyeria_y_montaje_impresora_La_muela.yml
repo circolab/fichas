@@ -1,35 +1,37 @@
 ---
 date:         29/11/2015
 place:        IES Rodanas, La Muela
-title:        Joyeria mediante fabricación digital
+title:        Joyería mediante fabricación digital
 description:  Taller para la creación de colgantes y complementos
 goals:        |
-              Trabajo en equipo.
-              Introducción a la filosofía del código abierto y comunidades online.
-              Poner en práctica conceptos de diseño
-              Inkscape: Diseño de accesorios y/o complementos
-              Fabricación digital: Corte láser
-              Qué es el software libre
+              - Trabajo en equipo.
+              - Introducción a la filosofía del código abierto y comunidades online.
+              - Poner en práctica conceptos de diseño
+              - Inkscape: Diseño de accesorios y/o complementos
+              - Fabricación digital: Corte láser
+              - Qué es el software libre
 steps:        |
               División de la clase en 2 grupos alternando actividad.
-              Grupo 1
+              1. Grupo 1
               Iniciación de conceptos básicos de diseño vectorial 2D con Inkscape y a la fabricación digital con la cortadora laser
               Diseño y creación de un accesorio de joyería
               Grupo 2
-              Explicación del movimiento RepRap y montaje de una impresora 3D Prusa en equipo
-              Cambio de grupo
+              2. Explicación del movimiento RepRap y montaje de una impresora 3D Prusa en equipo
+              3. Cambio de grupo
 materials:    |
-              Portátiles
-              Rotuladores y hojas
-              Cortadora láser
-              Metacrilato
-              Cuerdas y cadenas para llaveros
-              Kit Prusa Hephestos
+              - Portátiles
+              - Rotuladores y hojas
+              - Cortadora láser
+              - Metacrilato
+              - Cuerdas y cadenas para llaveros
+              - Kit Prusa Hephestos
 nextstep:     |
               Conceptos de diseño (Teoría del color, etc)
 duration:     4h
 age:          16
 age_recomm:   8 >
 number:       20
-images:       [img1.png]
-albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157660545451286 
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157660545451286
+img1:         https://farm6.staticflickr.com/5732/22635087452_2fb1e5f999_z_d.jpg
+img2:         https://farm6.staticflickr.com/5625/22648622035_9260c7bb68_z_d.jpg
+img3:         https://farm6.staticflickr.com/5708/22025839354_aab05feb85_z_d.jpg

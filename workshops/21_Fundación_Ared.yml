@@ -4,32 +4,34 @@ place:        Fundación Ared
 title:        Fabricación digital y diseño de un complemento para la ropa
 description:  Diseño, fabricación y costura de un adorno para una chaqueta
 goals:        |
-              Primer contacto con el diseño
-              Trabajo en equipo
-              Diseño de ropa y costura
-              Realización de bocetos
-              Introdución a la fabricación digital
-              Diseño y fabricación de piezas 2D utilizando la cortadora laser
-steps:         |
-              Introducción al diseño vectorial : Inskcape
-              Introducción a la fabricación digital
-              Introducción a nuevos materiales
-              Realización de bocetos
-              Diseño de piezas 2D utilizando la cortadora laser
-              Corte
-              Costura en la prenda
+              - Primer contacto con el diseño
+              - Trabajo en equipo
+              - Diseño de ropa y costura
+              - Realización de bocetos
+              - Introdución a la fabricación digital
+              - Diseño y fabricación de piezas 2D utilizando la cortadora laser
+steps:        |
+              1. Introducción al diseño vectorial : Inskcape
+              2. Introducción a la fabricación digital
+              3. Introducción a nuevos materiales
+              4. Realización de bocetos
+              5. Diseño de piezas 2D utilizando la cortadora laser
+              6. Corte
+              7. Costura en la prenda
 materials:    |
-              Portátiles
-              Cortadora láser
-              Papel y lápiz
-              Metacrilato
-              Caja de costura
-              chaqueta
+              - Portátiles
+              - Cortadora láser
+              - Papel y lápiz
+              - Metacrilato
+              - Caja de costura
+              - chaqueta
 nextstep:     |
               Incorporación de las piezas en la chaqueta
 duration:     6h
 age:          30-50
 age_recomm:   8 >
 number:       10
-images:       [img1.png, img2.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157660870087091
+img1:         https://farm6.staticflickr.com/5679/22185584783_6b405c6785_z_d.jpg
+img2:         https://farm1.staticflickr.com/591/22185584283_8b653da433_z_d.jpg
+img3:         https://farm6.staticflickr.com/5744/22806724475_af40037f5a_z_d.jpg

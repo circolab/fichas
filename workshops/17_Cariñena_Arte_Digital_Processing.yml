@@ -4,25 +4,27 @@ place:        IES Cariñena, Cariñena
 title:        Arte procedural con Processing
 description:  Creación de un cuadro abstracto mediante diseño procedural
 goals:        |
-              Introducción a la programación mediante Processing
-              Introducción al software libre y comunidades online.
-              ¿Qué es el arte digital?
-              Enlazar arte con tecnología digital
+              - Introducción a la programación mediante Processing
+              - Introducción al software libre y comunidades online.
+              - ¿Qué es el arte digital?
+              - Enlazar arte con tecnología digital
 steps:        |
-              Dos tandas de alumnos.
-              Introducción a Processing y a la programación con funciones básicas. rect(), fill(), stroke(), ellipse(), triangle(), random()
-              Breve introducción sobre Piet Mondrian y Joan Miró
-              Composición de un cuadro abstracto usando processing. Atención a la forma y al color.
-              Impresión del cuadro junto al código que utilizaron para su composición para su exhibición
+              1. Dos tandas de alumnos.
+              2. Introducción a Processing y a la programación con funciones básicas. rect(), fill(), stroke(), ellipse(), triangle(), random()
+              3. Breve introducción sobre Piet Mondrian y Joan Miró
+              4. Composición de un cuadro abstracto usando processing. Atención a la forma y al color.
+              5. Impresión del cuadro junto al código que utilizaron para su composición para su exhibición
 materials:    |
-              Portátiles
-              Proyector
-              Impresora
+              - Portátiles
+              - Proyector
+              - Impresora
 nextstep:     |
               Diseño paramétrico e interactivo
 duration:     2h + 2h
 age:          16
 age_recomm:   8 >
 number:       50
-images:       [img1.png, img2.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157658267505074
+img1:         https://farm6.staticflickr.com/5813/22643222715_8c2c0f7be7_z_d.jpg
+img2:         https://farm6.staticflickr.com/5776/22022019033_4a312a351c_z_d.jpg
+img3:         https://farm6.staticflickr.com/5633/22021991703_0e7f5f5ac6_z_d.jpg

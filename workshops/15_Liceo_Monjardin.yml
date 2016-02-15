@@ -4,32 +4,34 @@ place:        Liceo de Monjardin
 title:        Las Ciudades del futuro. Prototipado con papel y electrónica
 description:  Ideación y creación de una ciudad del futuro
 goals:        |
-              Prototipado rápido y diseño
-              Introducción a los soft circuits ( circuitos blandos)
-              Trabajo en equipo.
-              ¿Como serán las ciudades en el futuro?
-              Iniciación al diseño de interacción
+              - Prototipado rápido y diseño
+              - Introducción a los soft circuits ( circuitos blandos)
+              - Trabajo en equipo.
+              - ¿Como serán las ciudades en el futuro?
+              - Iniciación al diseño de interacción
 steps:        |
-              Introducción al kit de materiales
-              Grupos de 2
-              Creación de un circuito electrónico simple
-              Ideación y creación de un edificio que conformará la ciudad
-              Diseño de la ciudad
-              Minipresentación al resto del grupo y exposición usando proyección sobre la ciudad
+              1. Introducción al kit de materiales
+              2. Grupos de 2
+              3. Creación de un circuito electrónico simple
+              4. Ideación y creación de un edificio que conformará la ciudad
+              5. Diseño de la ciudad
+              6. Minipresentación al resto del grupo y exposición usando proyección sobre la ciudad
 materials:    |
-              Electrónica básica: leds, pilas de botón, motores dc
-              adhesivo de cobre
-              El wire
-              Tijeras
-              Pegamento
-              Palitos
-              Materiales de manualidades en general
-              Plantilla de cartón cortada a laser para construir figuras geométicas en 3d
+              - Electrónica básica: leds, pilas de botón, motores dc
+              - adhesivo de cobre
+              - El wire
+              - Tijeras
+              - Pegamento
+              - Palitos
+              - Materiales de manualidades en general
+              - Plantilla de cartón cortada a laser para construir figuras geométicas en 3d
 nextstep:     |
               Creación de un Sketch de Processing para proyectar sobre la ciudad
 duration:     3h
 age:          12 - 16
 age_recomm:   8 >
 number:       35
-images:       [img1.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157660251015486
+img1:         https://farm1.staticflickr.com/616/22476135351_3e2fe36951_z_d.jpg
+img2:         https://farm6.staticflickr.com/5637/22451817732_a5aa572100_z_d.jpg
+img3:         https://farm6.staticflickr.com/5699/22451816092_d728391d4b_z_d.jpg

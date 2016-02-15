@@ -1,26 +1,30 @@
 ---
 date:         30/11/2015
 place:        Universidad de Granada, Granada
-title:        Hackathon
-description:  |
-              Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
-              Grupos de 2 personas.
-              Iniciamos el taller enseñando las características de la placa miniblip. Propusimos la creación de varios ejemplos para aprender a utilizarla.
-              Creamos un r epositorio en github donde pudieramos participar y compartir toda esa información, verificando los beneficios del conocimiento libre y distribuido.
-              Al finalizar el evento-taller todos expusieron  lo que habian realizado.
+title:        Hackathon Miniblip
+description:  Hackathón de electrónica y programación usando la placa Miniblip
 goals:        |
-              Primer contacto con una electronica nueva.
-              Desarrollar nuevas herramientas para facilitar su programación, asi como ejemplos para utilizarla.
+              - Primer contacto con la placa Miniblip
+              - Desarrollar nuevas herramientas para facilitar su programación, asi como ejemplos para utilizarla.
+              - Utilización de la miniblip
+              - Trabajo con hadware y software libre
+steps:        |
+              1. Muestra de características de la placa Miniblip
+              2. Creación de un repositorio online en github para participar y compartir el trabajo
+              3. Soldar componentes a la placa de forma individual
+              4. Trabajo colaborativo a modo "hackathon" programando la placa
+              5. Exposición de los resultados
 materials:    |
-              miniblip
-              portatiles
-content:   |
-              Utilización de la miniblip.
-              Código libre.
+              - Miniblip
+              - Soldadores
+              - Portátiles
 nextstep:     |
               Creación de herramientas de programacion y ejemplos más complejos.
-duration:     2 días
+duration:     1 día y medio
 age:          18-50
 age_recomm:   18->
 number:       40
-images:       [img1.png, img2.png]
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659655510523
+img1:         https://farm1.staticflickr.com/762/23502410985_5b61e5c77a_z_d.jpg
+img2:         https://farm1.staticflickr.com/737/23419886481_2669f8f606_z_d.jpg
+img3:         https://farm6.staticflickr.com/5809/23502366465_cbaf30701a_z_d.jpg

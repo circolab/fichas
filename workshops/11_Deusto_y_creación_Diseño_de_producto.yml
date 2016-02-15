@@ -3,24 +3,26 @@ date:         14/10/2015
 place:        Universidad de Deusto, Bilbao
 title:        ¿Cómo mejorar la furgoneta de CIRCOLAB?
 description:  Introducción a como fue concebido CIRCOLAB, sus muebles y repensar elementos de la furgoneta
-steps:        |
-              Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
-              Grupos de 2 o 3 personas.
-              Introducción sobre las máquinas y los materiales que disponemos.
-              Describimos el proceso que seguimos para diseñar y construir la furgoneta laboratorio y todos sus muebles.
-              Se lanza reto: ¿Cómo introducir mejoras a los muebles y diseño interior de la furgoneta actual?
-              Presentación de cada solución y mejora por grupos.
 goals:        |
-              Presentación de un diseño/producto y búsqueda de mejora
+              - Presentación de un diseño/producto y búsqueda de mejora
+steps:        |
+              1. Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
+              2. Grupos de 2 o 3 personas.
+              3. Introducción sobre las máquinas y los materiales que disponemos.
+              4. Describimos el proceso que seguimos para diseñar y construir la furgoneta laboratorio y todos sus muebles.
+              5. Se lanza reto: ¿Cómo introducir mejoras a los muebles y diseño interior de la furgoneta actual?
+              6. Presentación de cada solución y mejora por grupos.
 materials:    |
-              Rotuladores y hojas
-              Ordenadores
-              Proyector
+              - Rotuladores y hojas
+              - Ordenadores
+              - Proyector
 nextstep:     |
               Implementación de dichas soluciones
 duration:     3h
 age:          18 >
 age_recomm:   12->
 number:       40
-images:       [img1.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659520424608
+img1:         https://farm1.staticflickr.com/590/22033427400_b39c1ba2b7_z_d.jpg
+img2:         https://farm6.staticflickr.com/5752/22195357156_d562241be2_z_d.jpg
+img3:         https://farm1.staticflickr.com/660/22231816931_3cbd08de60_z_d.jpg

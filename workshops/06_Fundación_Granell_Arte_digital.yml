@@ -4,24 +4,24 @@ place:        Fundación Granell y Circonove, Galicia
 title:        Arte digital con artistas de Circo y Malabares
 description:  Colaboración con el colectivo Circonove en la Fundación Granell para la exploración de elementos tecnológicos en prácticas artísticas
 goals:        |
-              Primer contacto con electrónica, Arduino, sensores y actuadores
-              Utilización de móviles de forma interactiva utilizando los sensores incluidos
-              Buscar formas de cómo la tecnología electrónica puede utilizarse en prácticas artísticas de actuación.
+              - Primer contacto con electrónica, Arduino, sensores y actuadores
+              - Utilización de móviles de forma interactiva utilizando los sensores incluidos
+              - Buscar formas de cómo la tecnología electrónica puede utilizarse en prácticas artísticas de actuación.
 steps:        |
-              Presentación del equipo y de los participantes preguntando cuales son los intereses de cada uno y cómo la tecnología se podría integrar con su práctica.
-              Introducción sobre el funcionamiento de la electrónica del kit de BQ y como utilizar móviles para combinarla con espectáculos circenses.
-              Exploración de los distintos componentes y ver como Luz y Sonido pueden aplicarse a sus prácticas
-              Sonificación de los movimientos de los artistas usando PureData. Los movimientos son captados mediante los acelerómetros de los teléfonos móviles y enviados en tiempo real al ordenador que sonifica los movimientos.
-              Improvisación artística en la plaza
+              1. resentación del equipo y de los participantes preguntando cuales son los intereses de cada uno y cómo la tecnología se podría integrar con su práctica.
+              2. Introducción sobre el funcionamiento de la electrónica del kit de BQ y como utilizar móviles para combinarla con espectáculos circenses.
+              3. Exploración de los distintos componentes y ver como Luz y Sonido pueden aplicarse a sus prácticas
+              4. Sonificación de los movimientos de los artistas usando PureData. Los movimientos son captados mediante los acelerómetros de los teléfonos móviles y enviados en tiempo real al ordenador que sonifica los movimientos.
+              5. Improvisación artística en la plaza
 materials:    |
-              Componentes electrónicos del kit de robótica BQ
-              Tiras LEDs
-              EL Wire
-              Móviles BQ
-              Máquina de coser
-              Goma elástica y velcro
-              Altavoz
-              Portátiles
+              - Componentes electrónicos del kit de robótica BQ
+              - Tiras LEDs
+              - EL Wire
+              - Móviles BQ
+              - Máquina de coser
+              - Goma elástica y velcro
+              - Altavoz
+              - Portátiles
 nextstep:     |
               Creación de trajes o sistemas más avanzados de reconocimiento y actuación de movimientos.
 duration:     3h
@@ -29,5 +29,7 @@ duration:     3h
 age:          18 >
 age_recomm:   18 >
 number:       12
-images:       [img1.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659380725902
+img1:         https://farm1.staticflickr.com/686/21284245584_85423ab493_z_d.jpg
+img2:         https://farm6.staticflickr.com/5641/21285805963_6484edb9d4_z_d.jpg
+img3:         https://farm6.staticflickr.com/5789/21880784236_945b183935_z_d.jpg

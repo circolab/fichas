@@ -4,30 +4,32 @@ place:        IES Benjamín, Tudela
 title:        Transforma la tecnlogía - De un teléfono a un sintetizador musical
 description:  Creación de un dispositivo sonoro/musical usando un un teléfono móvil y un microcontrolador
 goals:        |
-              Primer contacto con electronica programable
-              Programación de dispositivos móviles
-              Relación entre las matemáticas y el sonido.
-              Conceptos de síntesis de sonido.
-              Introducción al diseño vectorial y corte láser.
+              - Primer contacto con electronica programable
+              - Programación de dispositivos móviles
+              - Relación entre las matemáticas y el sonido.
+              - Conceptos de síntesis de sonido.
+              - Introducción al diseño vectorial y corte láser.
 steps:        |
-              Grupos de 2-3 personas con un kit de electrónica BQ y un dispositivo móvil preprogramados.
-              Introducción a la síntesis de sonido
-              Explicación a modo de diagrama de bloques del sintetizador
-              Relación entre movimiento de los potenciómetros y el sonido generado
-              Introducción al diseño vectorial con Inkscape mediante la creación de un llavero
-              Uso de la cortadora laser
+              1. Grupos de 2-3 personas con un kit de electrónica BQ y un dispositivo móvil preprogramados.
+              2. Introducción a la síntesis de sonido
+              3. Explicación a modo de diagrama de bloques del sintetizador
+              4. Relación entre movimiento de los potenciómetros y el sonido generado
+              5. Introducción al diseño vectorial con Inkscape mediante la creación de un llavero
+              6. Uso de la cortadora laser
 materials:    |
-              Componentes electrónicos del kit de robótica BQ
-              Dispositivos móviles
-              Ordenadores
-              Proyector
-              Cortadora láser
-              Metacrilato
+              - Componentes electrónicos del kit de robótica BQ
+              - Dispositivos móviles
+              - Ordenadores
+              - Proyector
+              - Cortadora láser
+              - Metacrilato
 nextstep:     |
-              Diseño y creación final de la carcasa. Mejora del sintetizador. 
+              Diseño y creación final de la carcasa. Mejora del sintetizador.
 duration:     4h
 age:          16
 age_recomm:   16 >
 number:       20
-images:       [img1.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157660534725376
+img1:         https://farm6.staticflickr.com/5833/22615990806_bf52e2c92d_z_d.jpg
+img2:         https://farm1.staticflickr.com/597/22653240871_82608fa482_z_d.jpg
+img3:         https://farm1.staticflickr.com/589/22615992586_c5d6ac402b_z_d.jpg

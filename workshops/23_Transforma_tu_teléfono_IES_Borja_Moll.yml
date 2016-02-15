@@ -1,0 +1,28 @@
+---
+place:        IES Borja Moll
+title:        Transforma tu teléfono
+description:  Utilizar teléfonos Android obsoletos para transformalos en otro tipo de tecnología
+goals:        |
+              - Introducción a la programación móvil
+              - Introducción al uso de sensores
+              - Ver las posibilidades de transformación de tecnología
+steps:        |
+              1. Creación de Grupos
+              2. Explicación de qué es un smartphone, qué tecnologías lleva dentro y como se puede reaprovechar
+              3. Brainstorming para la generación de ideas
+              4. Explicación del funcionamiento de Protocoder mediante un pequeño ejercicio
+              5. Implementación de la idea a modo de prototipo
+              6. Presentación
+materials:    |
+               -Teléfonos Android antiguos
+              - Ordenadores
+nextstep:     |
+              Explorar con mayor profundidad las posibilidades que ofrece un teléfono
+duration:     3h
+age:          22-50
+age_recomm:   20 >
+number:       25
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659084987403
+img1:         https://farm1.staticflickr.com/566/23156106871_8b61cf4fe6_z_d.jpg
+img2:         https://farm1.staticflickr.com/701/22824201870_abd6803886_z_d.jpg
+img3:         https://farm1.staticflickr.com/736/22725874377_d08a80ccb3_z_d.jpg

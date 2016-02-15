@@ -4,32 +4,34 @@ place:        Universidad de Mondragón
 title:        Diseño de Producto / Regreso al futuro
 description:  Creación de un producto usando técnicas de prototipado rápido
 goals:        |
-              Introducción a Arduino, Impresión 3D y Cortadora láser
-              Primer contacto con la filosofía del código abierto y comunidades online
-              Trabajo en equipo
-              Introducción al prototipado rápido
-              Diseño de producto
+              - Introducción a Arduino, Impresión 3D y Cortadora láser
+              - Primer contacto con la filosofía del código abierto y comunidades online
+              - Trabajo en equipo
+              - Introducción al prototipado rápido
+              - Diseño de producto
 steps:        |
-              División de la clase en grupos de 4 o 5
-              Propuesta para realizar un diseño de producto que no existe
-              Realización de prototipo: Bocetos, selección de materiales/tecnología y ejecución
-              Presentaciones al estilo "elevator pitch"
+              1. División de la clase en grupos de 4 o 5
+              2. Propuesta para realizar un diseño de producto que no existe
+              3. Realización de prototipo: Bocetos, selección de materiales/tecnología y ejecución
+              4. Presentaciones al estilo "elevator pitch"
 materials:    |
-              Cartones
-              Pipe clenaers, ojitos, pompones de colores, plastilina decoraciones craft
-              Pinturas y hojas
-              Palitos
-              Electrónica básica: leds, pilas de botón, motores dc
-              Copper tape e hilo conductor
-              Plastilina
-              Impresoras 3D
-              Cortadora laser
-              Componentes electrónicos del kit de robótica BQ
+              - Cartones
+              - Pipe clenaers, ojitos, pompones de colores, plastilina decoraciones craft
+              - Pinturas y hojas
+              - Palitos
+              - Electrónica básica: leds, pilas de botón, motores dc
+              - Copper tape e hilo conductor
+              - Plastilina
+              - Impresoras 3D
+              - Cortadora laser
+              - Componentes electrónicos del kit de robótica BQ
 nextstep:     |
               Iteración en el prototipo
 duration:     8 horas
 age:          18 - 22
 age_recomm:   8 >
 number:       40
-images:       [img1.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659534323298
+img1:         https://farm6.staticflickr.com/5628/22241490201_822dd20a1c_z_d.jpg
+img2:         https://farm1.staticflickr.com/673/22044218859_1a6717fa1e_z_d.jpg
+img3:         https://farm1.staticflickr.com/626/21608354124_7f64be5305_z_d.jpg

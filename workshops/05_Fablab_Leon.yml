@@ -4,30 +4,31 @@ place:        FabLab León
 title:        E-textiles. Introducción a Wearable Tech
 description:  Creación de un Wearable utilizando componentes básicos de electrónica flexible
 goals:        |
-              Introducción a los circuitos simples
-              Primer contacto con el campo de los textiles y la electronica
-              Conocer nuevos materiales como el hilo conductor
-              Introducción al Diseño de interacción
-              Introducción a la filosofía del código abierto y comunidades online.
+              - Introducción a los circuitos simples
+              - Primer contacto con el campo de los textiles y la electronica
+              - Conocer nuevos materiales como el hilo conductor
+              - Introducción al Diseño de interacción
+              - Introducción a la filosofía del código abierto y comunidades online.
 steps:        |
-albumUrl:
-              Introducción de componentes Kit de materiales e-textiles
-              Iniciación de conceptos básicos de electrónica ( circuito simple, paralelo y en serie)
-              Realización de un proyecto de textiles y electronica intentando resolver un problema ficticio o de la vida diaria
-              Una vez realizado el primer circuito mostrar cómo se pueden utilizar esos mismos componentes para crear sensores DIY
+              1. Introducción de componentes Kit de materiales e-textiles
+              2. Iniciación de conceptos básicos de electrónica ( circuito simple, paralelo y en serie)
+              3. Realización de un proyecto de textiles y electronica intentando resolver un problema ficticio o de la vida diaria
+              4. Una vez realizado el primer circuito mostrar cómo se pueden utilizar esos mismos componentes para crear sensores DIY
 materials:    |
-              hilo conductor
-              aguja
-              batería 3V
-              trozos de tela
-              leds de colores
-              motores
-              tijeras
+              - hilo conductor
+              - aguja
+              - batería 3V
+              - trozos de tela
+              - leds de colores
+              - motores
+              - tijeras
 nextstep:     |
               Realizar un prototipo más complejo e interactivo utilizando textiles utilizando técnicas de Design Thinking
 duration:     3 horas
 age:          5 a 50
 age_recomm:   8 >
 number:       40
-images:       [img1.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157658918402528
+img1:         https://farm6.staticflickr.com/5619/21670531768_4b5d61b84f_z_d.jpg
+img2:         https://farm1.staticflickr.com/598/21867988181_3dc4367612_z_d.jpg
+img3:         https://farm1.staticflickr.com/724/21858389145_e4df851690_z_d.jpg

@@ -5,33 +5,35 @@ title:        Máquina de Golberg
 description:  |
               Trabajar de manera colaborativa con la comunidad de Bricolabs para fabricar una Máquina de Golberg
 goals:        |
-              Acercamiento a la comunidad Maker de Bricolabs
-              Trabajo en equipo
-              Utilización de la cortadora láser
-              Utilización de la máquina de coser
+              - Acercamiento a la comunidad Maker de Bricolabs
+              - Trabajo en equipo
+              - Utilización de la cortadora láser
+              - Utilización de la máquina de coser
 steps:        |
-              Determinar cual es la acción que deseas construir con una máquina de Golberg
-              Estudiar otras máquina de Golberg
-              Diseñar los métodos para manejar cada paso en el proceso y los dispositivos para poner en práctica esos métodos
-              Construcción
-              Documentación
+              1. Determinar cual es la acción que deseas construir con una máquina de Golberg
+              2. Estudiar otras máquina de Golberg
+              3. Diseñar los métodos para manejar cada paso en el proceso y los dispositivos para poner en práctica esos métodos
+              4. Construcción
+              5. Documentación
 materials:    |
-              Canicas
-              varillas
-              Pegamento y bridas
-              Pinturas y hojas
-              Dobladora de varillas
-              Máquina de cosér
-              Cortadora láser
-              Portátiles
-              Palitos
-              Rodamientos y piezas en general
-              Arduino / BQ Zum y componentes varios
+              - Canicas
+              - varillas
+              - Pegamento y bridas
+              - Pinturas y hojas
+              - Dobladora de varillas
+              - Máquina de cosér
+              - Cortadora láser
+              - Portátiles
+              - Palitos
+              - Rodamientos y piezas en general
+              - Arduino / BQ Zum y componentes varios
 nextstep:     |
               Estudiar qué partes se pueden mejorar y cómo mejorarlas
 duration:     1 dia
 age:          8-40
 age_recomm:   8 >
 number:       15
-images:       [img1.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659583107525
+img1:         https://farm6.staticflickr.com/5801/21391480744_69b616d7e2_z_d.jpg
+img2:         https://farm6.staticflickr.com/5833/22014268665_623695dc43_z_d.jpg
+img3:         https://farm6.staticflickr.com/5792/22024122001_9668ba2634_z_d.jpg

@@ -81,6 +81,15 @@ table {
     line-height: 1.5em;
     font-weight: 300;
   }
+
+  p {
+      padding: 0;
+  }
+
+  div {
+    padding: 0.5em 0em;
+  }
+
   h1 {
 		color: rgb(234, 72, 100);
 		font-size: 2em;
@@ -99,11 +108,44 @@ table {
     height: 337mm;
 	}
 
+  .magentaBg {
+      background-color: #ea4864;
+  }
+
+  .portada {
+    color: white;
+    font-size: 5em;
+    padding: 5em 0em;
+    text-align: center;
+  }
+
+  .intro {
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 1.5em;
+  }
+
+  .introol {
+    color: white;
+    font-size: 1em;
+    padding-bottom: 1.5em;
+    font-weight: 500;
+    list-style: decimal inside;
+  }
+
+  .introol ul {
+    list-style: inside none circle;
+    margin-left: 2em;
+  }
+
 	.bottom {
 		border-top: 3px solid #ea4864;
 		position:absolute;
 		width: 100%;
 		bottom:0px;
+    font-family: 'PFDinMonoMedium';
+    color: #ea4864;
 	}
 
 	strong {
@@ -115,9 +157,9 @@ table {
     width: calc(100% - 292px);
 	}
 
-	p {
-	  padding: 0.1em 0em 0.8em 0em;
-	}
+  .mainintro {
+    padding: 5em 0em 2em 5em;
+  }
 
 	.data {
 		position: absolute;
@@ -134,1417 +176,2114 @@ table {
 
 	}
 
+  .materials li {
+    display:inline-block;
+    border-bottom: 2px dotted #ea4864;
+    margin: 0px 10px 0px 0px;
+  }
+
+  ol {
+      counter-reset: item;
+      list-style: none;
+      list-style-position: inside;
+  }
+
+  ol li {
+   counter-increment: item;
+  }
+
+  .images {
+    text-align: center;
+  }
+
+
+  .goals ul li:before {
+    color: rgb(234, 72, 100);
+    font-family: 'PFDinMonoMedium';
+    content: "-";
+    margin-right: 5px;
+  }
+
+  ol li:before {
+      color: rgb(234, 72, 100);
+      font-family: 'PFDinMonoMedium';
+      content:counter(item);
+      margin-right: 5px;
+  }
+
 </style>
 <body>
 
-
-<div class = "ficha pagina">
-  <div class = "main">
-    <h1> Postal Interactiva </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Creación de una postal interactiva con materiales electrónicos flexibles
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con la electrónica a través de materiales flexibles
-Aprender como están hechos los circuitos simples
-Estos materiales pueden llegar a ser más atractivos que los tradicionales para las personas que no están acostumbradas a la electrónica
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Se reparte el kit con todos los materiales.
-El taller puede ser autoguiado siguiendo las instrucciones de la Postal.
-La postal indica un circuito a construir, pero los participantes pueden modificarlo a su gusto y hacerla suya utilizando los lápices de colores
-Normalmente los participantes se suelen equivocar con la polaridad de la pila. Es interesante hacerles preguntas para que ellos mismos busquen la solución.
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Postal
-Pila de botón
-Leds
-Cinta de cobre
-Clip
-Lápices de colores
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Ejercicio de creación de sensores utilizando materiales similares.
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="">   </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
+<div class = "magentaBg">
+  <div class = "ficha pagina magentaBg">
+    <div class = "main">
+      <h1 class = "portada">Talleres CIRCOLAB</h1>
     </div>
   </div>
-  <div class = "data">
-    <p> <strong> Fecha </strong> 18&#x2F;09&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> BQ, Las Rozas </p>
-    <p> <strong> Duración </strong> 20 minutos </p>
-    <p> <strong> N. participantes </strong> 30 </p>
-    <p> <strong> Edad </strong> 20-30 </p>
-    <p> <strong> Edad Recomendada </strong> 5 &gt;
-    <p> <strong> Dificultad </strong> 
+
+  <p style="page-break-after:always;"></p>
+
+
+  <div class = "ficha pagina magentaBg">
+    <div class = "mainintro">
+
+    <p class = "intro">
+      Este documento contiene un resumen de una gran parte de los talleres de CIRCOLAB <br />
+      Todos los talleres tienen un proceso similar que se detallan a continuación
+    </p>
+
+    <ol class = "introol">
+      <li>Presentación del equipo y de los participantes mediante un "icebreaker"
+
+        <ul>
+          <li>¿Cuál es tu superpoder?</li>
+          <li>Dibuja a la persona que tienes a tu derecha y luego preséntala</li>
+          <li>¿Qué vas a estudiar o dónde vas a trabajar dentro de unos años?</li>
+        </ul>
+
+      </li>
+
+      <li>Introducción a el proyecto Circolab: La furgoneta, máquinas y materiales</li>
+      <li>Introducción al taller</li>
+      <li>Trabajo</li>
+      <li>Minipresentación</li>
+    </ol>
+
+    </div>
+    <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
   </div>
-  <p class = "bottom"> Hola </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Introducción a Processing y a la Impresión 3d </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> El taller pretende introducir a los participantes al mundo de la creación digital procedural y al modelado e impresión 3d
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Poner en práctica conceptos de geometría
-Primer contacto con programación e impresión 3d
-Trabajo en equipo
-Introducción a diseño gráfico procedural con Processing Funciones rect() ellipse(), fill(), stroke(), random(), map()
-Impresión 3d: Funcionamiento de una impresora 3d. TinkerCAD, CURA
-Introducción a la filosofía del código abierto y comunidades online
-¿Qué es el software libre?
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>División de la clase en 2 grupos con subgrupos de 3 alternando actividad después de 1h 30mins con descanso entre medias
-Grupo 1: Iniciación de conceptos básicos de programación utilizando
+    <h1> <p>Postal Interactiva</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de una postal interactiva con materiales electrónicos flexibles</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Primer contacto con la electrónica a través de materiales flexibles</li>
+<li>Aprender como están hechos los circuitos simples</li>
+<li>Estos materiales pueden llegar a ser más atractivos que los tradicionales para las personas que no están acostumbradas a la electrónica</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Se reparte el kit con todos los materiales.</li>
+<li>El taller puede ser autoguiado siguiendo las instrucciones de la Postal.</li>
+<li>La postal indica un circuito a construir, pero los participantes pueden modificarlo a su gusto y hacerla suya utilizando los lápices de colores</li>
+<li>Normalmente los participantes se suelen equivocar con la polaridad de la pila. Es interesante hacerles preguntas para que ellos mismos busquen la solución.</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Postal</li>
+<li>Pila de botón</li>
+<li>Leds</li>
+<li>Cinta de cobre</li>
+<li>Clip</li>
+<li>Lápices de colores</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Ejercicio de creación de sensores utilizando materiales similares.</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="">  </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5758&#x2F;21937863212_a481fc73f8_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5634/21328987733_133e018f96_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5777/21923800326_d452c41778_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
+  </div>
+  <div class = "data">
+    <ul>
+    <li> <strong> Fecha </strong> <p>18/09/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>BQ, Las Rozas</p>
+ </li>
+    <li> <strong> Duración </strong> <p>20 minutos</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>30</p>
+ </li>
+    <li> <strong> Edad </strong> <p>20 - 30</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>5 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
+  </div>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
+</div>
+<p style="page-break-after:always;"></p>
+
+<div class = "ficha pagina">
+  <div class = "main">
+    <h1> <p>Introducción a Processing y a la Impresión 3d</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>El taller pretende introducir a los participantes al mundo de la creación digital procedural y al modelado e impresión 3d</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Poner en práctica conceptos de geometría</li>
+<li>Primer contacto con programación e impresión 3d</li>
+<li>Trabajo en equipo</li>
+<li>Introducción a diseño gráfico procedural con Processing Funciones rect() ellipse(), fill(), stroke(), random(), map()</li>
+<li>Impresión 3d: Funcionamiento de una impresora 3d. TinkerCAD, CURA</li>
+<li>Introducción a la filosofía del código abierto y comunidades online</li>
+<li>¿Qué es el software libre?</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>División de la clase en 2 grupos con subgrupos de 3 alternando actividad después de 1h 30mins con descanso entre medias</li>
+<li>Grupo 1: Iniciación de conceptos básicos de programación utilizando
 la herramienta Processing.org para crear un &quot;smile&quot; que cambia en cada ejecucion
-Minipresentación al resto del grupo.
 Grupo 2: Diseño de una pieza en 3d usando la herramienta online TinkerCAD y
-el funcionamiento y puesta en marcha de las impresoras 3d.
-Minipresentación al resto del grupo.
-Cambio de grupo.
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Impresoras 3D
-Portátiles
-Proyector
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Imprimir pieza 3d, iterar.
-Processing: introducción al movimiento usando los metodos setup(), draw(), mouseX&#x2F;mouseY, bucles
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659173115381"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659173115381  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+el funcionamiento y puesta en marcha de las impresoras 3d.</li>
+<li>Minipresentación al resto del grupo.</li>
+<li>Cambio de grupo.</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Impresoras 3D</li>
+<li>Portátiles</li>
+<li>Proyector</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Imprimir pieza 3d, iterar.
+Processing: introducción al movimiento usando los metodos setup(), draw(), mouseX/mouseY, bucles</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659173115381&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659173115381&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157659173115381">https://www.flickr.com/photos/135835753@N08/albums/72157659173115381</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5621&#x2F;21571877899_e640eccf39_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5680/21136027584_896e2e88a1_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/669/21570924968_412bf29da8_k_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 24&#x2F;9&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Instituto Politécnico Cristo Rey, Valladolid </p>
-    <p> <strong> Duración </strong> 3 a 4 horas </p>
-    <p> <strong> N. participantes </strong> 30 </p>
-    <p> <strong> Edad </strong> 12 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>24/9/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Instituto Politécnico Cristo Rey, Valladolid</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3 a 4 horas</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>30</p>
+ </li>
+    <li> <strong> Edad </strong> <p>12</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Inkscape, cortadora láser y graffiti </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> División de la clase en 3 grupos en paralelo.
-Bocetos a papel y lápices. Creación de hagstag o idea que quieren plasmar.
-Paso a dibujo vectorial mediante Inkscape Dibujos básicos,trazo de líneas, texto
-Corte láser del stencil en cartulina para hacer el graffiti.
-Minipresentación al resto del grupo.
-Cambio de grupo.
-¿Qué es el software libre?
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>¿Cómo plasmar una idea en papel y luego ejecutarla?
-Primer contacto con diseño de dibujos vectoriales.
-¿Qué son vectores?
-¿Cómo funciona una cortadora laser?
-Trabajo en equipo.
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Cortadora láser
-Rotuladores y hojas
-Pinturas en spray
-Cartulinas
-Portátiles con Inkscape instalado
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Diseño vectorial avanzado utilizando Inkscape.
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659223601896"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659223601896  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Inkscape, cortadora láser y graffiti</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de un graffiti usando plantillas hechos con cortadora laser</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>¿Cómo plasmar una idea en papel y luego ejecutarla?</li>
+<li>Primer contacto con diseño de dibujos vectoriales.</li>
+<li>¿Qué son vectores?</li>
+<li>¿Cómo funciona una cortadora laser?</li>
+<li>Trabajo en equipo.</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>División de la clase en 3 grupos en paralelo.</li>
+<li>Bocetos a papel y lápices. Creación de hagstag o idea que quieren plasmar.</li>
+<li>Paso a dibujo vectorial mediante Inkscape Dibujos básicos,trazo de líneas, texto</li>
+<li>Corte láser de la plantilla en cartulina para hacer el graffiti.</li>
+<li>Minipresentación al resto del grupo.</li>
+<li>Cambio de grupo.</li>
+<li>¿Qué es el software libre?</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Cortadora láser</li>
+<li>Rotuladores y hojas</li>
+<li>Pinturas en spray</li>
+<li>Cartulinas</li>
+<li>Portátiles con Inkscape instalado</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Diseño vectorial avanzado utilizando Inkscape.</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659223601896&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659223601896&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157659223601896">https://www.flickr.com/photos/135835753@N08/albums/72157659223601896</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5737&#x2F;21645963688_eac99a1a3d_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/673/21645765960_e80423418d_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/586/21807680876_fb9da21bc9_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 29&#x2F;9&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Instituto Pablo Díez Boñar, León </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 30 </p>
-    <p> <strong> Edad </strong> 14 </p>
-    <p> <strong> Edad Recomendada </strong> 8-&gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>29/9/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Instituto Pablo Díez Boñar, León</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>30</p>
+ </li>
+    <li> <strong> Edad </strong> <p>14</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8-&gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Inkscape, cortadora láser y graffiti </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> División de la clase en 3 grupos en paralelo.
-Bocetos a papel y lápices. Creación de hagstag o idea que quieren plasmar.
-Paso a dibujo vectorial mediante Inkscape Dibujos básicos,trazo de líneas, texto
-Corte láser del stencil en cartulina para hacer el graffiti.
-Minipresentación al resto del grupo.
-Cambio de grupo.
-¿Qué es el software libre?
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>¿Cómo plasmar una idea en papel y luego ejecutarla?
-Primer contacto con diseño de dibujos vectoriales.
-¿Qué son vectores?
-¿Cómo funciona una cortadora laser?
-Trabajo en equipo.
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Cortadora láser
-Rotuladores y hojas
-Pinturas en spray
-Cartulinas
-Portátiles con Inkscape instalado
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Diseño vectorial avanzado utilizando Inkscape.
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659223601896"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659223601896  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Kachipla</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Crear un juguete combinando fabricación digital y manual</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Fomentar la imaginación</li>
+<li>Desarrollo de la capacidad motora</li>
+<li>Mostrar como un juguete se construye con distintas técnicas (máquinas y personas)</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Introducción sobre el funcionamiento de las máquinas que llevamos a bordo.</li>
+<li>División de la clase en 3 grupos en paralelo.</li>
+<li>Construcción de un superheroe utilizando materiales generados a partir de las maquinas de fabricación digital junto con materiales blandos y de manualidades.</li>
+<li>Creación de una historia asociada al superheroe construido y un mural para desarrollar su historia.</li>
+<li>Presentación final donde los chic@s presentarán su historia y a su superhéroe en el escenario.</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Impresoras 3D</li>
+<li>Piezas impresas</li>
+<li>Pegamento</li>
+<li>Pipe clenaers, ojitos, pompones de colores y decoraciones craft</li>
+<li>Pinturas y hojas</li>
+<li>Palitos</li>
+<li>Papel contínuo</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Utilización de materiales que permitan más opciones creatividas.</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157656955299484&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157656955299484&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157656955299484">https://www.flickr.com/photos/135835753@N08/albums/72157656955299484</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm1.staticflickr.com&#x2F;600&#x2F;21646560848_13b8835e72_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5663/21646551648_aa30522ab0_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/773/21843988501_49ba2ac882_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 29&#x2F;9&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Instituto Pablo Díez Boñar, León </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 30 </p>
-    <p> <strong> Edad </strong> 14 </p>
-    <p> <strong> Edad Recomendada </strong> 8-&gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>29/9/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Plaza Mayor Vegas del Condado, León</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>30</p>
+ </li>
+    <li> <strong> Edad </strong> <p>6-12</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>6-&gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Inkscape, cortadora láser y graffiti </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> División de la clase en 3 grupos en paralelo.
-Bocetos a papel y lápices. Creación de hagstag o idea que quieren plasmar.
-Paso a dibujo vectorial mediante Inkscape Dibujos básicos,trazo de líneas, texto
-Corte láser del stencil en cartulina para hacer el graffiti.
-Minipresentación al resto del grupo.
-Cambio de grupo.
-¿Qué es el software libre?
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>¿Cómo plasmar una idea en papel y luego ejecutarla?
-Primer contacto con diseño de dibujos vectoriales.
-¿Qué son vectores?
-¿Cómo funciona una cortadora laser?
-Trabajo en equipo.
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Cortadora láser
-Rotuladores y hojas
-Pinturas en spray
-Cartulinas
-Portátiles con Inkscape instalado
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Diseño vectorial avanzado utilizando Inkscape.
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659223601896"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659223601896  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>E-textiles. Introducción a Wearable Tech</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de un Wearable utilizando componentes básicos de electrónica flexible</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Introducción a los circuitos simples</li>
+<li>Primer contacto con el campo de los textiles y la electronica</li>
+<li>Conocer nuevos materiales como el hilo conductor</li>
+<li>Introducción al Diseño de interacción</li>
+<li>Introducción a la filosofía del código abierto y comunidades online.</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Introducción de componentes Kit de materiales e-textiles</li>
+<li>Iniciación de conceptos básicos de electrónica ( circuito simple, paralelo y en serie)</li>
+<li>Realización de un proyecto de textiles y electronica intentando resolver un problema ficticio o de la vida diaria</li>
+<li>Una vez realizado el primer circuito mostrar cómo se pueden utilizar esos mismos componentes para crear sensores DIY</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>hilo conductor</li>
+<li>aguja</li>
+<li>batería 3V</li>
+<li>trozos de tela</li>
+<li>leds de colores</li>
+<li>motores</li>
+<li>tijeras</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Realizar un prototipo más complejo e interactivo utilizando textiles utilizando técnicas de Design Thinking</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157658918402528&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157658918402528&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157658918402528">https://www.flickr.com/photos/135835753@N08/albums/72157658918402528</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5619&#x2F;21670531768_4b5d61b84f_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/598/21867988181_3dc4367612_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/724/21858389145_e4df851690_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 29&#x2F;9&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Instituto Pablo Díez Boñar, León </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 30 </p>
-    <p> <strong> Edad </strong> 14 </p>
-    <p> <strong> Edad Recomendada </strong> 8-&gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>30/09/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>FabLab León</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3 horas</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>40</p>
+ </li>
+    <li> <strong> Edad </strong> <p>5 a 50</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Arte digital con artistas de Circo y Malabares </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Colaboración con el colectivo Circonove en la Fundación Granell para la exploración de elementos tecnológicos en prácticas artísticas </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con electrónica, Arduino, sensores y actuadores
-Utilización de móviles de forma interactiva utilizando los sensores incluidos
-Buscar formas de cómo la tecnología electrónica puede utilizarse en prácticas artísticas de actuación.
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Presentación del equipo y de los participantes preguntando cuales son los intereses de cada uno y cómo la tecnología se podría integrar con su práctica.
-Introducción sobre el funcionamiento de la electrónica del kit de BQ y como utilizar móviles para combinarla con espectáculos circenses.
-Exploración de los distintos componentes y ver como Luz y Sonido pueden aplicarse a sus prácticas
-Sonificación de los movimientos de los artistas usando PureData. Los movimientos son captados mediante los acelerómetros de los teléfonos móviles y enviados en tiempo real al ordenador que sonifica los movimientos.
-Improvisación artística en la plaza
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Componentes electrónicos del kit de robótica BQ
-Tiras LEDs
-EL Wire
-Móviles BQ
-Máquina de coser
-Goma elástica y velcro
-Altavoz
-Portátiles
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Creación de trajes o sistemas más avanzados de reconocimiento y actuación de movimientos.
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659380725902"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659380725902  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Arte digital con artistas de Circo y Malabares</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Colaboración con el colectivo Circonove en la Fundación Granell para la exploración de elementos tecnológicos en prácticas artísticas</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Primer contacto con electrónica, Arduino, sensores y actuadores</li>
+<li>Utilización de móviles de forma interactiva utilizando los sensores incluidos</li>
+<li>Buscar formas de cómo la tecnología electrónica puede utilizarse en prácticas artísticas de actuación.</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>resentación del equipo y de los participantes preguntando cuales son los intereses de cada uno y cómo la tecnología se podría integrar con su práctica.</li>
+<li>Introducción sobre el funcionamiento de la electrónica del kit de BQ y como utilizar móviles para combinarla con espectáculos circenses.</li>
+<li>Exploración de los distintos componentes y ver como Luz y Sonido pueden aplicarse a sus prácticas</li>
+<li>Sonificación de los movimientos de los artistas usando PureData. Los movimientos son captados mediante los acelerómetros de los teléfonos móviles y enviados en tiempo real al ordenador que sonifica los movimientos.</li>
+<li>Improvisación artística en la plaza</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Componentes electrónicos del kit de robótica BQ</li>
+<li>Tiras LEDs</li>
+<li>EL Wire</li>
+<li>Móviles BQ</li>
+<li>Máquina de coser</li>
+<li>Goma elástica y velcro</li>
+<li>Altavoz</li>
+<li>Portátiles</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Creación de trajes o sistemas más avanzados de reconocimiento y actuación de movimientos.</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659380725902&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659380725902&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157659380725902">https://www.flickr.com/photos/135835753@N08/albums/72157659380725902</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm1.staticflickr.com&#x2F;686&#x2F;21284245584_85423ab493_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5641/21285805963_6484edb9d4_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5789/21880784236_945b183935_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 2&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Fundación Granell y Circonove, Galicia </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 12 </p>
-    <p> <strong> Edad </strong> 18 &gt; </p>
-    <p> <strong> Edad Recomendada </strong> 18 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>2/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Fundación Granell y Circonove, Galicia</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>12</p>
+ </li>
+    <li> <strong> Edad </strong> <p>18 &gt;</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>18 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Mini talleres STEAM &#x2F; Divulgacion </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Actividades creativas y divulgativas para enseñar conceptos básicos la tecnología contemporánea </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con el funcionamiento de los ordenadores
-Primer contacto con la impresión 3D
-Primer contacto con la electrónica básica de un modo creativo ( soft circuits, dibujar circuitos)
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>División en 3 grupos alternando actividad.
-
-1. Muestra del funcionamiento de la mano biónica y la impresora 3D (Divulgativo)
-2. Introducción al funcionamiento de los ordenadores y la programación para niños a traves del teatro
-3. Dibujo y realización de una postal interactiva &#x2F; Realización de un circuito simple
-En cada una de las actividades se les pregunta a los participantes pequeñas cuestiones para que descubran ellos mismos el funcionamiento de la tecnología
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Componentes electrónicos del kit de robótica BQ
-Electrónica básica: leds, pilas de botón, motores dc
-Cinta de cobre
-Hilo conductor
-Pilas de 3V
-Móviles
-Impresoras 3D
-Portátiles
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Introducción a Scratch
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659059418529"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659059418529  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Mini talleres STEAM / Divulgacion</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Actividades creativas y divulgativas para enseñar conceptos básicos la tecnología contemporánea</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Primer contacto con el funcionamiento de los ordenadores</li>
+<li>Primer contacto con la impresión 3D</li>
+<li>Primer contacto con la electrónica básica de un modo creativo ( soft circuits, dibujar circuitos)</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <p>División en 3 grupos alternando actividad.</p>
+<ol>
+<li>Muestra del funcionamiento de la mano biónica y la impresora 3D (Divulgativo)</li>
+<li>Introducción al funcionamiento de los ordenadores y la programación para niños a traves del teatro</li>
+<li>Dibujo y realización de una postal interactiva / Realización de un circuito simple
+En cada una de las actividades se les pregunta a los participantes pequeñas cuestiones para que descubran ellos mismos el funcionamiento de la tecnología</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Componentes electrónicos del kit de robótica BQ</li>
+<li>Electrónica básica: leds, pilas de botón, motores dc</li>
+<li>Cinta de cobre</li>
+<li>Hilo conductor</li>
+<li>Pilas de 3V</li>
+<li>Móviles</li>
+<li>Impresoras 3D</li>
+<li>Portátiles</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Introducción a Scratch</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659059418529&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659059418529&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157659059418529">https://www.flickr.com/photos/135835753@N08/albums/72157659059418529</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5771&#x2F;21939764392_73a940ea2f_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5711/21939803432_a1fabc93f8_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/567/21330804343_a296746a79_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 03&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Rapaciños, Ciudad de la Cultura, Santiago de Compostela </p>
-    <p> <strong> Duración </strong> 4h </p>
-    <p> <strong> N. participantes </strong> 70 </p>
-    <p> <strong> Edad </strong> 2-14 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>03/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Rapaciños, Ciudad de la Cultura, Santiago de Compostela</p>
+ </li>
+    <li> <strong> Duración </strong> <p>4h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>70</p>
+ </li>
+    <li> <strong> Edad </strong> <p>2-14</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Máquina de Golberg </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Trabajar de manera colaborativa con la comunidad de Bricolabs para fabricar una Máquina de Golberg
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Acercamiento a la comunidad Maker de Bricolabs
-Trabajo en equipo
-Utilización de la cortadora láser
-Utilización de la máquina de coser
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Determinar cual es la acción que deseas construir con una máquina de Golberg
-Estudiar otras máquina de Golberg
-Diseñar los métodos para manejar cada paso en el proceso y los dispositivos para poner en práctica esos métodos
-Construcción
-Documentación
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Canicas
-varillas
-Pegamento y bridas
-Pinturas y hojas
-Dobladora de varillas
-Máquina de cosér
-Cortadora láser
-Portátiles
-Palitos
-Rodamientos y piezas en general
-Arduino &#x2F; BQ Zum y componentes varios
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Estudiar qué partes se pueden mejorar y cómo mejorarlas
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659583107525"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659583107525  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Máquina de Golberg</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Trabajar de manera colaborativa con la comunidad de Bricolabs para fabricar una Máquina de Golberg</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Acercamiento a la comunidad Maker de Bricolabs</li>
+<li>Trabajo en equipo</li>
+<li>Utilización de la cortadora láser</li>
+<li>Utilización de la máquina de coser</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Determinar cual es la acción que deseas construir con una máquina de Golberg</li>
+<li>Estudiar otras máquina de Golberg</li>
+<li>Diseñar los métodos para manejar cada paso en el proceso y los dispositivos para poner en práctica esos métodos</li>
+<li>Construcción</li>
+<li>Documentación</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Canicas</li>
+<li>varillas</li>
+<li>Pegamento y bridas</li>
+<li>Pinturas y hojas</li>
+<li>Dobladora de varillas</li>
+<li>Máquina de cosér</li>
+<li>Cortadora láser</li>
+<li>Portátiles</li>
+<li>Palitos</li>
+<li>Rodamientos y piezas en general</li>
+<li>Arduino / BQ Zum y componentes varios</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Estudiar qué partes se pueden mejorar y cómo mejorarlas</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659583107525&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659583107525&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157659583107525">https://www.flickr.com/photos/135835753@N08/albums/72157659583107525</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5801&#x2F;21391480744_69b616d7e2_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5833/22014268665_623695dc43_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5792/22024122001_9668ba2634_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 05&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Domus </p>
-    <p> <strong> Duración </strong> 1 dia </p>
-    <p> <strong> N. participantes </strong> 15 </p>
-    <p> <strong> Edad </strong> 8-40 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>05/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Domus</p>
+ </li>
+    <li> <strong> Duración </strong> <p>1 dia</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>15</p>
+ </li>
+    <li> <strong> Edad </strong> <p>8-40</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Programación y robótica </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Introducción a la electrónica programable </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con electrónica y programación de microcontroladores.
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
-Grupos de 4-5 personas con un ordenador con un Kit de electrónica y código programado para usar botones, potenciometros, tiras de leds y motores.
-Conceptualización de la idea que quieren crear con una historia usando papel y rotuladores
-Soldar tiras de leds
-Creación del artilugio con materiales de artesanía y mostrando dónde modificar el código para cambiar el comportamiento
-Presentación de cada proyecto por grupos.
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Componentes electrónicos del kit de robótica BQ
-Pegamento
-Pipe cleaners, ojitos, pompones de colores y decoraciones craft
-Pinturas y hojas
-Palitos
-Portátiles
-Proyector
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Creación de objetos con componentes más complejos y su programación.
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659242764459"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659242764459  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Programación y robótica</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Introducción a la electrónica programable</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Primer contacto con electrónica y programación de microcontroladores.</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.</li>
+<li>Grupos de 4-5 personas con un ordenador con un Kit de electrónica y código programado para usar botones, potenciometros, tiras de leds y motores.</li>
+<li>Conceptualización de la idea que quieren crear con una historia usando papel y rotuladores</li>
+<li>Soldar tiras de leds</li>
+<li>Creación del artilugio con materiales de artesanía y mostrando dónde modificar el código para cambiar el comportamiento</li>
+<li>Presentación de cada proyecto por grupos.</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Componentes electrónicos del kit de robótica BQ</li>
+<li>Pegamento</li>
+<li>Pipe cleaners, ojitos, pompones de colores y decoraciones craft</li>
+<li>Pinturas y hojas</li>
+<li>Palitos</li>
+<li>Portátiles</li>
+<li>Proyector</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Creación de objetos con componentes más complejos y su programación.</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659242764459&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659242764459&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157659242764459">https://www.flickr.com/photos/135835753@N08/albums/72157659242764459</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5624&#x2F;21439498153_6a427e00df_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/642/21873726829_b90a9170ea_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/735/22034437016_680c376ca3_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 7&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Estrada, Pontevedra </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 60 </p>
-    <p> <strong> Edad </strong> 12-16 </p>
-    <p> <strong> Edad Recomendada </strong> 10 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>7/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Estrada, Pontevedra</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>60</p>
+ </li>
+    <li> <strong> Edad </strong> <p>12-16</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>10 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Diseño y creación de un estandarte o bandera </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Creación de banderas usando técnicas de fabricación digital </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con máquinas de fabricación digital &#x2F; analógicas.
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
-Grupos de 2 personas.
-Introducción a las máquinas de coser, cortadora de vinilos y cortadora laser e introducción a la fabricación digital
-Elaboración de un boceto y posterior diseño final
-Creación de ese diseño con las herramientas
-Presentación de cada bandera por grupos.
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>varillas
-Tela (bolsas circolab)
-Pegamento y bridas
-Pinturas y hojas
-Cortadora de vinilos
-Dobladora de varillas
-Máquina de cosér
-Cortadora láser
-Rotuladores y hojas
-Pinturas en spray
-Cartulinas
-Portátiles
-Proyector
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Creación de objetos con diseños más complejos.
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157657374941784"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157657374941784  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Diseño y creación de un estandarte o bandera</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de banderas usando técnicas de fabricación digital</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Primer contacto con máquinas de fabricación digital / analógicas.</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.</li>
+<li>Grupos de 2 personas.</li>
+<li>Introducción a las máquinas de coser, cortadora de vinilos y cortadora laser e introducción a la fabricación digital</li>
+<li>Elaboración de un boceto y posterior diseño final</li>
+<li>Creación de ese diseño con las herramientas</li>
+<li>Presentación de cada bandera por grupos.</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Varillas</li>
+<li>Tela (bolsas circolab)</li>
+<li>Pegamento y bridas</li>
+<li>Pinturas y hojas</li>
+<li>Cortadora de vinilos</li>
+<li>Dobladora de varillas</li>
+<li>Máquina de cosér</li>
+<li>Cortadora láser</li>
+<li>Rotuladores y hojas</li>
+<li>Pinturas en spray</li>
+<li>Cartulinas</li>
+<li>Portátiles</li>
+<li>Proyector</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Creación de objetos con diseños más complejos.</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157657374941784&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157657374941784&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157657374941784">https://www.flickr.com/photos/135835753@N08/albums/72157657374941784</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm1.staticflickr.com&#x2F;596&#x2F;22087825235_f325a8d16a_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5827/22097832021_b9533590f5_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5702/22097831081_1c0640066e_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 10&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Araba Encounter, Vitoria </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 10 </p>
-    <p> <strong> Edad </strong> 18-60 </p>
-    <p> <strong> Edad Recomendada </strong> 12 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>10/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Araba Encounter, Vitoria</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>10</p>
+ </li>
+    <li> <strong> Edad </strong> <p>18-60</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>12 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> ¿Cómo mejorar la furgoneta de CIRCOLAB? </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Introducción a como fue concebido CIRCOLAB, sus muebles y repensar elementos de la furgoneta </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Presentación de un diseño&#x2F;producto y búsqueda de mejora
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
-Grupos de 2 o 3 personas.
-Introducción sobre las máquinas y los materiales que disponemos.
-Describimos el proceso que seguimos para diseñar y construir la furgoneta laboratorio y todos sus muebles.
-Se lanza reto: ¿Cómo introducir mejoras a los muebles y diseño interior de la furgoneta actual?
-Presentación de cada solución y mejora por grupos.
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Rotuladores y hojas
-Ordenadores
-Proyector
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Implementación de dichas soluciones
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659520424608"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659520424608  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>¿Cómo mejorar la furgoneta de CIRCOLAB?</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Introducción a como fue concebido CIRCOLAB, sus muebles y repensar elementos de la furgoneta</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Presentación de un diseño/producto y búsqueda de mejora</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.</li>
+<li>Grupos de 2 o 3 personas.</li>
+<li>Introducción sobre las máquinas y los materiales que disponemos.</li>
+<li>Describimos el proceso que seguimos para diseñar y construir la furgoneta laboratorio y todos sus muebles.</li>
+<li>Se lanza reto: ¿Cómo introducir mejoras a los muebles y diseño interior de la furgoneta actual?</li>
+<li>Presentación de cada solución y mejora por grupos.</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Rotuladores y hojas</li>
+<li>Ordenadores</li>
+<li>Proyector</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Implementación de dichas soluciones</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659520424608&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659520424608&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157659520424608">https://www.flickr.com/photos/135835753@N08/albums/72157659520424608</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm1.staticflickr.com&#x2F;590&#x2F;22033427400_b39c1ba2b7_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5752/22195357156_d562241be2_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/660/22231816931_3cbd08de60_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 14&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Universidad de Deusto, Bilbao </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 40 </p>
-    <p> <strong> Edad </strong> 18 &gt; </p>
-    <p> <strong> Edad Recomendada </strong> 12-&gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>14/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Universidad de Deusto, Bilbao</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>40</p>
+ </li>
+    <li> <strong> Edad </strong> <p>18 &gt;</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>12-&gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Diseño de Producto &#x2F; Regreso al futuro </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Creación de un producto usando técnicas de prototipado rápido </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Introducción a Arduino, Impresión 3D y Cortadora láser
-Primer contacto con la filosofía del código abierto y comunidades online
-Trabajo en equipo
-Introducción al prototipado rápido
-Diseño de producto
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>División de la clase en grupos de 4 o 5
-Propuesta para realizar un diseño de producto que no existe
-Realización de prototipo: Bocetos, selección de materiales&#x2F;tecnología y ejecución
-Presentaciones al estilo &quot;elevator pitch&quot;
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Cartones
-Pipe clenaers, ojitos, pompones de colores, plastilina decoraciones craft
-Pinturas y hojas
-Palitos
-Electrónica básica: leds, pilas de botón, motores dc
-Copper tape e hilo conductor
-Plastilina
-Impresoras 3D
-Cortadora laser
-Componentes electrónicos del kit de robótica BQ
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Iteración en el prototipo
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659534323298"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659534323298  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Diseño de Producto / Regreso al futuro</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de un producto usando técnicas de prototipado rápido</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Introducción a Arduino, Impresión 3D y Cortadora láser</li>
+<li>Primer contacto con la filosofía del código abierto y comunidades online</li>
+<li>Trabajo en equipo</li>
+<li>Introducción al prototipado rápido</li>
+<li>Diseño de producto</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>División de la clase en grupos de 4 o 5</li>
+<li>Propuesta para realizar un diseño de producto que no existe</li>
+<li>Realización de prototipo: Bocetos, selección de materiales/tecnología y ejecución</li>
+<li>Presentaciones al estilo &quot;elevator pitch&quot;</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Cartones</li>
+<li>Pipe clenaers, ojitos, pompones de colores, plastilina decoraciones craft</li>
+<li>Pinturas y hojas</li>
+<li>Palitos</li>
+<li>Electrónica básica: leds, pilas de botón, motores dc</li>
+<li>Copper tape e hilo conductor</li>
+<li>Plastilina</li>
+<li>Impresoras 3D</li>
+<li>Cortadora laser</li>
+<li>Componentes electrónicos del kit de robótica BQ</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Iteración en el prototipo</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659534323298&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659534323298&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157659534323298">https://www.flickr.com/photos/135835753@N08/albums/72157659534323298</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5628&#x2F;22241490201_822dd20a1c_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/673/22044218859_1a6717fa1e_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/626/21608354124_7f64be5305_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 15&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Universidad de Mondragón </p>
-    <p> <strong> Duración </strong> 8 horas </p>
-    <p> <strong> N. participantes </strong> 40 </p>
-    <p> <strong> Edad </strong> 18 - 22 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>15/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Universidad de Mondragón</p>
+ </li>
+    <li> <strong> Duración </strong> <p>8 horas</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>40</p>
+ </li>
+    <li> <strong> Edad </strong> <p>18 - 22</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Costura y electrónica </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Creación de un bordado interactivo
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Realizar en el marco de CIRCOLAB una actividad intergeneracional
-Iniciación a la electrónica básica y los e-textiles
-Realización de un circuito básico
-Primer contacto con nuevos materiales: Hilo conductor de electricidad
-Trabajo en equipo
-Aprendizaje intergeneracional
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Introducción a los textiles y la electrónica
-Propuesta para realizar un bordado en el que se incluya un circuito electrónico
-Realización de un boceto
-Diseño en punto de cruz en papel del diseño
-¡A bordar!
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p> </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Compartir las ideas
-Mejoras e implementación
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660006969662"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660006969662  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Costura y electrónica</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de un bordado interactivo</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Realizar en el marco de CIRCOLAB una actividad intergeneracional</li>
+<li>Iniciación a la electrónica básica y los e-textiles</li>
+<li>Realización de un circuito básico</li>
+<li>Primer contacto con nuevos materiales: Hilo conductor de electricidad</li>
+<li>Trabajo en equipo</li>
+<li>Aprendizaje intergeneracional</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Introducción a los textiles y la electrónica</li>
+<li>Propuesta para realizar un bordado en el que se incluya un circuito electrónico</li>
+<li>Realización de un boceto</li>
+<li>Diseño en punto de cruz en papel del diseño</li>
+<li>¡A bordar!</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2>  </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Compartir las ideas
+Mejoras e implementación</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660006969662&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660006969662&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157660006969662">https://www.flickr.com/photos/135835753@N08/albums/72157660006969662</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5782&#x2F;21666761923_7775e16207_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/693/21665189894_23d62cdf85_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/678/22274905562_4e9863bf30_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 17&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Tabakalera, Hirikilabs </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 40 </p>
-    <p> <strong> Edad </strong> 16 - 75 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>17/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Tabakalera, Hirikilabs</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>40</p>
+ </li>
+    <li> <strong> Edad </strong> <p>16 - 75</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Cosmic Car &#x2F; Las leyes de Newton </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Explicación de la 3a Ley de Newton usando un Kit DIY para la constucción de un coche espacial </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Diseño de un coche propulsado con un globo
-Manualidades para trabajar con niños
-Demostración de la tercera ley de Newton: Principio de acción y reacción
-Demostración de como funciona una cortadora láser
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Introducción al kit de materiales Cosmic Car
-División de la clase en grupos de 2
-Cada grupo hace un Cosmic Car sin explicarles como se hace
-Iteración de diseño hasta conseguir un movimiento más óptimo
-Asignación de una misión para cada equipo (ie: enviar galletas a la luna)
-Implementación de un segundo Cosmic Car para la misión
-Presentación de misión - solución
-Carrera
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Pegamento
-Palitos
-Piezas cortadas con la cortadora láser
-Globos
-Materiales craft
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Compartir las ideas
-Crear un escenario nuevo y búsqueda e implementación de la solución
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157657954438554"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157657954438554  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Cosmic Car / Las leyes de Newton</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Explicación de la 3a Ley de Newton usando un Kit DIY para la constucción de un coche espacial</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Diseño de un coche propulsado con un globo</li>
+<li>Manualidades para trabajar con niños</li>
+<li>Demostración de la tercera ley de Newton: Principio de acción y reacción</li>
+<li>Demostración de como funciona una cortadora láser</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Introducción al kit de materiales Cosmic Car</li>
+<li>División de la clase en grupos de 2</li>
+<li>Cada grupo hace un Cosmic Car sin explicarles como se hace</li>
+<li>Iteración de diseño hasta conseguir un movimiento más óptimo</li>
+<li>Asignación de una misión para cada equipo (ie: enviar galletas a la luna)</li>
+<li>Implementación de un segundo Cosmic Car para la misión</li>
+<li>Presentación de misión - solución</li>
+<li>Carrera</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Pegamento</li>
+<li>Palitos</li>
+<li>Piezas cortadas con la cortadora láser</li>
+<li>Globos</li>
+<li>Materiales craft</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Compartir las ideas
+Crear un escenario nuevo y búsqueda e implementación de la solución</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157657954438554&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157657954438554&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157657954438554">https://www.flickr.com/photos/135835753@N08/albums/72157657954438554</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm1.staticflickr.com&#x2F;617&#x2F;22448059305_e9254f9eea_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/709/22261236379_6133c92a2a_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/776/22260081270_c8cea1cf2a_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 20&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Planetario </p>
-    <p> <strong> Duración </strong> 4h </p>
-    <p> <strong> N. participantes </strong> 30 </p>
-    <p> <strong> Edad </strong> 11-12 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>20/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Planetario</p>
+ </li>
+    <li> <strong> Duración </strong> <p>4h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>30</p>
+ </li>
+    <li> <strong> Edad </strong> <p>11-12</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Las Ciudades del futuro. Prototipado con papel y electrónica </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Ideación y creación de una ciudad del futuro </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Prototipado rápido y diseño
-Introducción a los soft circuits ( circuitos blandos)
-Trabajo en equipo.
-¿Como serán las ciudades en el futuro?
-Iniciación al diseño de interacción
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Introducción al kit de materiales
-Grupos de 2
-Creación de un circuito electrónico simple
-Ideación y creación de un edificio que conformará la ciudad
-Diseño de la ciudad
-Minipresentación al resto del grupo y exposición usando proyección sobre la ciudad
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Electrónica básica: leds, pilas de botón, motores dc
-adhesivo de cobre
-El wire
-Tijeras
-Pegamento
-Palitos
-Materiales de manualidades en general
-Plantilla de cartón cortada a laser para construir figuras geométicas en 3d
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Creación de un Sketch de Processing para proyectar sobre la ciudad
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660251015486"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660251015486  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Las Ciudades del futuro. Prototipado con papel y electrónica</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Ideación y creación de una ciudad del futuro</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Prototipado rápido y diseño</li>
+<li>Introducción a los soft circuits ( circuitos blandos)</li>
+<li>Trabajo en equipo.</li>
+<li>¿Como serán las ciudades en el futuro?</li>
+<li>Iniciación al diseño de interacción</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Introducción al kit de materiales</li>
+<li>Grupos de 2</li>
+<li>Creación de un circuito electrónico simple</li>
+<li>Ideación y creación de un edificio que conformará la ciudad</li>
+<li>Diseño de la ciudad</li>
+<li>Minipresentación al resto del grupo y exposición usando proyección sobre la ciudad</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Electrónica básica: leds, pilas de botón, motores dc</li>
+<li>adhesivo de cobre</li>
+<li>El wire</li>
+<li>Tijeras</li>
+<li>Pegamento</li>
+<li>Palitos</li>
+<li>Materiales de manualidades en general</li>
+<li>Plantilla de cartón cortada a laser para construir figuras geométicas en 3d</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Creación de un Sketch de Processing para proyectar sobre la ciudad</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660251015486&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660251015486&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157660251015486">https://www.flickr.com/photos/135835753@N08/albums/72157660251015486</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm1.staticflickr.com&#x2F;616&#x2F;22476135351_3e2fe36951_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5637/22451817732_a5aa572100_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5699/22451816092_d728391d4b_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 21&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Liceo de Monjardin </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 35 </p>
-    <p> <strong> Edad </strong> 12 - 16 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>21/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Liceo de Monjardin</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>35</p>
+ </li>
+    <li> <strong> Edad </strong> <p>12 - 16</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Transforma la tecnlogía - De un teléfono a un sintetizador musical </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Creación de un dispositivo sonoro&#x2F;musical usando un un teléfono móvil y un microcontrolador </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con electronica programable
-Programación de dispositivos móviles
-Relación entre las matemáticas y el sonido.
-Conceptos de síntesis de sonido.
-Introducción al diseño vectorial y corte láser.
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Grupos de 2-3 personas con un kit de electrónica BQ y un dispositivo móvil preprogramados.
-Introducción a la síntesis de sonido
-Explicación a modo de diagrama de bloques del sintetizador
-Relación entre movimiento de los potenciómetros y el sonido generado
-Introducción al diseño vectorial con Inkscape mediante la creación de un llavero
-Uso de la cortadora laser
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Componentes electrónicos del kit de robótica BQ
-Dispositivos móviles
-Ordenadores
-Proyector
-Cortadora láser
-Metacrilato
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Diseño y creación final de la carcasa. Mejora del sintetizador. 
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660534725376"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660534725376  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Transforma la tecnlogía - De un teléfono a un sintetizador musical</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de un dispositivo sonoro/musical usando un un teléfono móvil y un microcontrolador</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Primer contacto con electronica programable</li>
+<li>Programación de dispositivos móviles</li>
+<li>Relación entre las matemáticas y el sonido.</li>
+<li>Conceptos de síntesis de sonido.</li>
+<li>Introducción al diseño vectorial y corte láser.</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Grupos de 2-3 personas con un kit de electrónica BQ y un dispositivo móvil preprogramados.</li>
+<li>Introducción a la síntesis de sonido</li>
+<li>Explicación a modo de diagrama de bloques del sintetizador</li>
+<li>Relación entre movimiento de los potenciómetros y el sonido generado</li>
+<li>Introducción al diseño vectorial con Inkscape mediante la creación de un llavero</li>
+<li>Uso de la cortadora laser</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Componentes electrónicos del kit de robótica BQ</li>
+<li>Dispositivos móviles</li>
+<li>Ordenadores</li>
+<li>Proyector</li>
+<li>Cortadora láser</li>
+<li>Metacrilato</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Diseño y creación final de la carcasa. Mejora del sintetizador.</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660534725376&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660534725376&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157660534725376">https://www.flickr.com/photos/135835753@N08/albums/72157660534725376</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5833&#x2F;22615990806_bf52e2c92d_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/597/22653240871_82608fa482_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/589/22615992586_c5d6ac402b_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 26&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> IES Benjamín, Tudela </p>
-    <p> <strong> Duración </strong> 4h </p>
-    <p> <strong> N. participantes </strong> 20 </p>
-    <p> <strong> Edad </strong> 16 </p>
-    <p> <strong> Edad Recomendada </strong> 16 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>26/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>IES Benjamín, Tudela</p>
+ </li>
+    <li> <strong> Duración </strong> <p>4h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>20</p>
+ </li>
+    <li> <strong> Edad </strong> <p>16</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>16 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Arte procedural con Processing </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Creación de un cuadro abstracto mediante diseño procedural </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Introducción a la programación mediante Processing
-Introducción al software libre y comunidades online.
-¿Qué es el arte digital?
-Enlazar arte con tecnología digital
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Dos tandas de alumnos.
-Introducción a Processing y a la programación con funciones básicas. rect(), fill(), stroke(), ellipse(), triangle(), random()
-Breve introducción sobre Piet Mondrian y Joan Miró
-Composición de un cuadro abstracto usando processing. Atención a la forma y al color.
-Impresión del cuadro junto al código que utilizaron para su composición para su exhibición
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Portátiles
-Proyector
-Impresora
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Diseño paramétrico e interactivo
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157658267505074"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157658267505074  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Arte procedural con Processing</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de un cuadro abstracto mediante diseño procedural</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Introducción a la programación mediante Processing</li>
+<li>Introducción al software libre y comunidades online.</li>
+<li>¿Qué es el arte digital?</li>
+<li>Enlazar arte con tecnología digital</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Dos tandas de alumnos.</li>
+<li>Introducción a Processing y a la programación con funciones básicas. rect(), fill(), stroke(), ellipse(), triangle(), random()</li>
+<li>Breve introducción sobre Piet Mondrian y Joan Miró</li>
+<li>Composición de un cuadro abstracto usando processing. Atención a la forma y al color.</li>
+<li>Impresión del cuadro junto al código que utilizaron para su composición para su exhibición</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Portátiles</li>
+<li>Proyector</li>
+<li>Impresora</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Diseño paramétrico e interactivo</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157658267505074&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157658267505074&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157658267505074">https://www.flickr.com/photos/135835753@N08/albums/72157658267505074</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5813&#x2F;22643222715_8c2c0f7be7_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5776/22022019033_4a312a351c_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5633/22021991703_0e7f5f5ac6_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 28&#x2F;10&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> IES Cariñena, Cariñena </p>
-    <p> <strong> Duración </strong> 2h + 2h </p>
-    <p> <strong> N. participantes </strong> 50 </p>
-    <p> <strong> Edad </strong> 16 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>28/10/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>IES Cariñena, Cariñena</p>
+ </li>
+    <li> <strong> Duración </strong> <p>2h + 2h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>50</p>
+ </li>
+    <li> <strong> Edad </strong> <p>16</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Joyeria mediante fabricación digital </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Taller para la creación de colgantes y complementos </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Trabajo en equipo.
-Introducción a la filosofía del código abierto y comunidades online.
-Poner en práctica conceptos de diseño
-Inkscape: Diseño de accesorios y&#x2F;o complementos
-Fabricación digital: Corte láser
-Qué es el software libre
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>División de la clase en 2 grupos alternando actividad.
-Grupo 1
+    <h1> <p>Joyería mediante fabricación digital</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Taller para la creación de colgantes y complementos</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Trabajo en equipo.</li>
+<li>Introducción a la filosofía del código abierto y comunidades online.</li>
+<li>Poner en práctica conceptos de diseño</li>
+<li>Inkscape: Diseño de accesorios y/o complementos</li>
+<li>Fabricación digital: Corte láser</li>
+<li>Qué es el software libre</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <p>División de la clase en 2 grupos alternando actividad.</p>
+<ol>
+<li>Grupo 1
 Iniciación de conceptos básicos de diseño vectorial 2D con Inkscape y a la fabricación digital con la cortadora laser
 Diseño y creación de un accesorio de joyería
-Grupo 2
-Explicación del movimiento RepRap y montaje de una impresora 3D Prusa en equipo
-Cambio de grupo
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Portátiles
-Rotuladores y hojas
-Cortadora láser
-Metacrilato
-Cuerdas y cadenas para llaveros
-Kit Prusa Hephestos
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Conceptos de diseño (Teoría del color, etc)
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660545451286"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660545451286  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+Grupo 2</li>
+<li>Explicación del movimiento RepRap y montaje de una impresora 3D Prusa en equipo</li>
+<li>Cambio de grupo</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Portátiles</li>
+<li>Rotuladores y hojas</li>
+<li>Cortadora láser</li>
+<li>Metacrilato</li>
+<li>Cuerdas y cadenas para llaveros</li>
+<li>Kit Prusa Hephestos</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Conceptos de diseño (Teoría del color, etc)</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660545451286&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660545451286&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157660545451286">https://www.flickr.com/photos/135835753@N08/albums/72157660545451286</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5732&#x2F;22635087452_2fb1e5f999_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5625/22648622035_9260c7bb68_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5708/22025839354_aab05feb85_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 29&#x2F;11&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> IES Rodanas, La Muela </p>
-    <p> <strong> Duración </strong> 4h </p>
-    <p> <strong> N. participantes </strong> 20 </p>
-    <p> <strong> Edad </strong> 16 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>29/11/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>IES Rodanas, La Muela</p>
+ </li>
+    <li> <strong> Duración </strong> <p>4h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>20</p>
+ </li>
+    <li> <strong> Edad </strong> <p>16</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Taller Protocoder &lt;-&gt; Zowi </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Introducción a Protocoder y la API de programación de Zowi
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Creación de controladores personalizados usando la herramienta de prototipado móvil Protocoder
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Grupos de 2 con un Zowi y un dispositivo móvil
-Explicación de Protocoder y live coding
-Conexión de Zowi al móvil y envío de comandos mediante Bluetooth
-Carrera final de Zowis
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Portátiles
-Dispositivos Android
-Proyector
-Zowi
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p> </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157658495591374"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157658495591374  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Taller Protocoder &lt;-&gt; Zowi</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Introducción a la API de programación de Zowi y a la programación de móviles con Protocoder</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Creación de controladores personalizados usando la herramienta de prototipado móvil Protocoder</li>
+<li>Primer contacto con programación móvil</li>
+<li>Programación usando APIs</li>
+<li>Programación de Zowi</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ul>
+<li>Grupos de 2 con un Zowi y un dispositivo móvil</li>
+<li>Explicación de Protocoder y live coding</li>
+<li>Conexión de Zowi al móvil y envío de comandos mediante Bluetooth</li>
+<li>Carrera final de Zowis</li>
+</ul>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Portátiles</li>
+<li>Dispositivos Android</li>
+<li>Proyector</li>
+<li>Zowi</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2>  </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157658495591374&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157658495591374&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157658495591374">https://www.flickr.com/photos/135835753@N08/albums/72157658495591374</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5712&#x2F;22163815184_8483a24cfb_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5642/22598559860_71cf83ae12_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5666/22797734951_7873ee8391_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 3&#x2F;11&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Robotaires, Gerona </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 10 </p>
-    <p> <strong> Edad </strong> 12 - 18 </p>
-    <p> <strong> Edad Recomendada </strong> 
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>3/11/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Robotaires, Gerona</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>10</p>
+ </li>
+    <li> <strong> Edad </strong> <p>12 - 18</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>12 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Fabricación digital y diseño de un complemento para la ropa </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Diseño, fabricación y costura de un adorno para una chaqueta </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con el diseño
-Trabajo en equipo
-Diseño de ropa y costura
-Realización de bocetos
-Introdución a la fabricación digital
-Diseño y fabricación de piezas 2D utilizando la cortadora laser
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Portátiles
-Cortadora láser
-Papel y lápiz
-Metacrilato
-Caja de costura
-chaqueta
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Incorporación de las piezas en la chaqueta
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660870087091"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660870087091  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>DIY &quot;Operación&quot;</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Hacer un juego utilizando electrónica al estilo juego &quot;operación&quot;</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Enseñar electrónica básica</li>
+<li>Conceptos del movimiento de software libre</li>
+<li>Desarrollar la capacidad crítica</li>
+<li>Desarrollar la capacidad artística</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Grupos de 5</li>
+<li>Cada grupo recibe un set de materiales</li>
+<li>Cada grupo tiene que descubrir como hacer un circuito en serie y otro en paralelo</li>
+<li>Se diseña el juego</li>
+<li>Creación del juego</li>
+<li>Presentación</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Cinta de cobre</li>
+<li>Pilas de botón</li>
+<li>Leds</li>
+<li>Folios</li>
+<li>Rotuladores de colores</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Kit de electrónica de BQ</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;sets&#x2F;72157663939049995&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;sets&#x2F;72157663939049995&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/sets/72157663939049995">https://www.flickr.com/photos/135835753@N08/sets/72157663939049995</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm2.staticflickr.com&#x2F;1675&#x2F;24491695632_409885568b_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm2.staticflickr.com/1698/24304481320_c3b7ceb7b4_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm2.staticflickr.com/1658/24232245139_f5276f8650_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 15&#x2F;11&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Fundación Ared </p>
-    <p> <strong> Duración </strong> 6h </p>
-    <p> <strong> N. participantes </strong> 10 </p>
-    <p> <strong> Edad </strong> 30-50 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>09/11/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Colegio Monserrat, Barcelona</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>30</p>
+ </li>
+    <li> <strong> Edad </strong> <p>14-16</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>6 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Modelado e impresión 3D </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Introducción al modelado e impresión 3D
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con el diseño de modelos 3D con herramientas libres FreeCAD y Cura
-Utilización de impresoras 3D
-Movimiento RepRap
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Presentación del equipo y de los participantes preguntando qué conocimientos tienen sobre el tema y qué esperan aprender.
-Explicación de funcionamiento de una impresora 3d
-Utilización de FreeCad mediante pequeños ejemplos
-Utilización de Cura
-Reto en el cual los participantes tenían que diseñar e implementar un robot con superpoderes
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Portátiles
-Proyector
-Impresoras 3D
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Diseño de piezas con utilización de funciones más complejas
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660640465578"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660640465578  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Fabricación digital y diseño de un complemento para la ropa</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Diseño, fabricación y costura de un adorno para una chaqueta</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Primer contacto con el diseño</li>
+<li>Trabajo en equipo</li>
+<li>Diseño de ropa y costura</li>
+<li>Realización de bocetos</li>
+<li>Introdución a la fabricación digital</li>
+<li>Diseño y fabricación de piezas 2D utilizando la cortadora laser</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Introducción al diseño vectorial : Inskcape</li>
+<li>Introducción a la fabricación digital</li>
+<li>Introducción a nuevos materiales</li>
+<li>Realización de bocetos</li>
+<li>Diseño de piezas 2D utilizando la cortadora laser</li>
+<li>Corte</li>
+<li>Costura en la prenda</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Portátiles</li>
+<li>Cortadora láser</li>
+<li>Papel y lápiz</li>
+<li>Metacrilato</li>
+<li>Caja de costura</li>
+<li>chaqueta</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Incorporación de las piezas en la chaqueta</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660870087091&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660870087091&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157660870087091">https://www.flickr.com/photos/135835753@N08/albums/72157660870087091</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5679&#x2F;22185584783_6b405c6785_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/591/22185584283_8b653da433_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5744/22806724475_af40037f5a_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 18&#x2F;11&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> U.Ingenieria, Universidat de les Illes Baleares </p>
-    <p> <strong> Duración </strong> 5 horas de taller + 5 de impresión </p>
-    <p> <strong> N. participantes </strong> 50 </p>
-    <p> <strong> Edad </strong> 18 - 50 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>15/11/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Fundación Ared</p>
+ </li>
+    <li> <strong> Duración </strong> <p>6h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>10</p>
+ </li>
+    <li> <strong> Edad </strong> <p>30-50</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Introducción a fabricación digital </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Introdución a la fabricación digital para una posterior implementación en sus prácticas artísticas &#x2F; musicales
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Diseño de prototipos
-Primer contacto con el diseño gráfico vectorial
-Introducción a la filosofía del código abierto y comunidades online.
-Que es la fabricación digital y funcionamiento de una cortadora laser
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Diseño de un objeto 3D usando elementos de 2D
-Uso de Inkscape
-Realización de un prototipo utilizando la cortadora láser
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Leds RGB
-Pegamento
-Portátiles
-Proyector
-Cortadora láser
-Metacrilato
-DM
-Cartón
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Implementación en sus proyectos musicales
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157661408300306"> https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157661408300306  </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Hackea la Oca</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Utilizar juegos tradicionales y hackearlos usando elementos contemporáneos</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Colaboración y trabajo en equipo</li>
+<li>Introducción al juego de la oca</li>
+<li>Primer contracto con la electrónica (soft circuits)</li>
+<li>Diferencias de un circuito en serie y otro en paralelo</li>
+<li>¿Cómo se hace un botón?</li>
+<li>Diseño de nuevas reglas de juego</li>
+<li>Introducir elementos interactivos con electrónica</li>
+<li>Jugar varias partidas con el juego propuesto ( rotativo)</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Grupos de 5 con un juego de la oca y diversos Materiales</li>
+<li>Jugar al juego de la oca una vez para conocer las reglas</li>
+<li>Explicar como funcionan los circuitos simples a los padres / mentores</li>
+<li>Mentores explican a los chic@s</li>
+<li>Pensar en nuevas reglas e interacciones</li>
+<li>Implementación</li>
+<li>Jugar de nuevo al juego de la oca</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Electrónica básica: leds, pilas de botón, motores dc</li>
+<li>Adhesivo de cobre</li>
+<li>Pegamento</li>
+<li>Juego de la Oca</li>
+<li>Palitos</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Compartir las ideas. Mejoras e implementación.</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660586022569&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660586022569&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157660586022569">https://www.flickr.com/photos/135835753@N08/albums/72157660586022569</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm1.staticflickr.com&#x2F;709&#x2F;22677081717_99da8338e7_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/644/22677046578_cd381731b3_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/741/22474218093_e30106d8b9_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 20&#x2F;1&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Berklee college of Music, Valencia </p>
-    <p> <strong> Duración </strong> 4h </p>
-    <p> <strong> N. participantes </strong> 30 </p>
-    <p> <strong> Edad </strong> 20 - 40 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>14/11/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>3D SOMA</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>30</p>
+ </li>
+    <li> <strong> Edad </strong> <p>8-50</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> We are the robots </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
-Realización de un disfraz con electrónica
-Introducción a la electrónica básica
-Realizacón de la actividad indiviudal
-Presentación y video
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con la electrónica &#x2F; Soft circuits
-Introducción de la tecnología en una escuela de arte
-Realización de una actividad artística: construcción de un disfraz con cartón,
-materiales artísticos y electrónica
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Miniblip
-Cartones
-Pipe cleaners, ojitos, pompones de colores y decoraciones craft
-Rotuladores y hojas
-Palitos
-Electrónica básica: leds, pilas de botón, motores dc
-Adhesivo de cobre
-Hilo conductor
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Realización de un disfraz
-Participación en un video para circolab
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="">   </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Hackea la Oca</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Utilizar juegos tradicionales y hackearlos usando elementos contemporáneos</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Colaboración y trabajo en equipo</li>
+<li>Introducción al juego de la oca</li>
+<li>Primer contracto con la electrónica (soft circuits)</li>
+<li>Diferencias de un circuito en serie y otro en paralelo</li>
+<li>¿Cómo se hace un botón?</li>
+<li>Diseño de nuevas reglas de juego</li>
+<li>Introducir elementos interactivos con electrónica</li>
+<li>Jugar varias partidas con el juego propuesto ( rotativo)</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Grupos de 5 con un juego de la oca y diversos Materiales</li>
+<li>Jugar al juego de la oca una vez para conocer las reglas</li>
+<li>Explicar como funcionan los circuitos simples a los padres / mentores</li>
+<li>Mentores explican a los chic@s</li>
+<li>Pensar en nuevas reglas e interacciones</li>
+<li>Implementación</li>
+<li>Jugar de nuevo al juego de la oca</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Electrónica básica: leds, pilas de botón, motores dc</li>
+<li>Adhesivo de cobre</li>
+<li>Pegamento</li>
+<li>Juego de la Oca</li>
+<li>Palitos</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Compartir las ideas. Mejoras e implementación.</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660586022569&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660586022569&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157660586022569">https://www.flickr.com/photos/135835753@N08/albums/72157660586022569</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm1.staticflickr.com&#x2F;709&#x2F;22677081717_99da8338e7_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/644/22677046578_cd381731b3_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/741/22474218093_e30106d8b9_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 26&#x2F;11&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Hacklab Almeria </p>
-    <p> <strong> Duración </strong> 6h </p>
-    <p> <strong> N. participantes </strong> 70 </p>
-    <p> <strong> Edad </strong> 20-50 </p>
-    <p> <strong> Edad Recomendada </strong> 8-&gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>14/11/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>3D SOMA</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>30</p>
+ </li>
+    <li> <strong> Edad </strong> <p>8-50</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Hackathon </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
-Grupos de 2 personas.
-Iniciamos el taller enseñando las características de la placa miniblip. Propusimos la creación de varios ejemplos para aprender a utilizarla.
-Creamos un r epositorio en github donde pudieramos participar y compartir toda esa información, verificando los beneficios del conocimiento libre y distribuido.
-Al finalizar el evento-taller todos expusieron  lo que habian realizado.
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con una electronica nueva.
-Desarrollar nuevas herramientas para facilitar su programación, asi como ejemplos para utilizarla.
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>miniblip
-portatiles
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Creación de herramientas de programacion y ejemplos más complejos.
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="">   </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Sensores capacitivos</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de sensores capacitivos para sonificar objetos</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Introducción a la electrónica programable</li>
+<li>Electrónica como herramienta creativa</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Creación de Grupos</li>
+<li>Creación del un primer &quot;Hola Mundo&quot; usando la BQZum</li>
+<li>Explicación del funcionamiento de los sensores capacitivos</li>
+<li>Creación de una interfaz interactiva con globos y papel albal</li>
+<li>Presentación</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Kit de electrónica BQ preprogramada</li>
+<li>Papel albal</li>
+<li>Ordenadores</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Explorar con mayor profundidad las posibilidades que ofrece un teléfono</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157661390665272&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157661390665272&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157661390665272">https://www.flickr.com/photos/135835753@N08/albums/72157661390665272</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm1.staticflickr.com&#x2F;715&#x2F;22731619297_40719097e1_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5669/22829902340_875cd7a94e_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5813/22731692638_118259c42a_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 30&#x2F;11&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Universidad de Granada, Granada </p>
-    <p> <strong> Duración </strong> 2 días </p>
-    <p> <strong> N. participantes </strong> 40 </p>
-    <p> <strong> Edad </strong> 18-50 </p>
-    <p> <strong> Edad Recomendada </strong> 18-&gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong>  </li>
+    <li> <strong> Lugar </strong> <p>IES Juniper Serra</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>25</p>
+ </li>
+    <li> <strong> Edad </strong> <p>14-16</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>12 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Arte y Tecnología. Aprendizaje colaborativa </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Diseñar un grafiti interactivo
-Después de definir la interacción del mural se trabaja por equipos:
+    <h1> <p>Modelado e impresión 3D</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Introducción al modelado e impresión 3D</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Primer contacto con el diseño de modelos 3D con herramientas libres FreeCAD y Cura</li>
+<li>Utilización de impresoras 3D</li>
+<li>Movimiento RepRap</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Presentación del equipo y de los participantes preguntando qué conocimientos tienen sobre el tema y qué esperan aprender.</li>
+<li>Explicación de funcionamiento de una impresora 3d</li>
+<li>Utilización de FreeCad mediante pequeños ejemplos</li>
+<li>Utilización de Cura</li>
+<li>Reto en el cual los participantes tenían que diseñar e implementar un robot con superpoderes</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Portátiles</li>
+<li>Proyector</li>
+<li>Impresoras 3D</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Diseño de piezas con utilización de funciones más complejas</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660640465578&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157660640465578&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157660640465578">https://www.flickr.com/photos/135835753@N08/albums/72157660640465578</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5695&#x2F;22829787850_6cebea9969_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5736/23161501621_0e724d22ea_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/720/23135938412_7e4582e78f_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
+  </div>
+  <div class = "data">
+    <ul>
+    <li> <strong> Fecha </strong> <p>18/11/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>U.Ingenieria, Universidat de les Illes Baleares</p>
+ </li>
+    <li> <strong> Duración </strong> <p>5 horas de taller + 5 de impresión</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>50</p>
+ </li>
+    <li> <strong> Edad </strong> <p>18 - 50</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
+  </div>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
+</div>
+<p style="page-break-after:always;"></p>
+
+<div class = "ficha pagina">
+  <div class = "main">
+    <h1> <p>Introducción a fabricación digital</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Introdución a la fabricación digital para una posterior implementación en sus prácticas artísticas / musicales</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Diseño de prototipos</li>
+<li>Primer contacto con el diseño gráfico vectorial</li>
+<li>Introducción a la filosofía del código abierto y comunidades online.</li>
+<li>Que es la fabricación digital y funcionamiento de una cortadora laser</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Diseño de un objeto 3D usando elementos de 2D</li>
+<li>Uso de Inkscape</li>
+<li>Realización de un prototipo utilizando la cortadora láser</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Leds RGB</li>
+<li>Pegamento</li>
+<li>Portátiles</li>
+<li>Proyector</li>
+<li>Cortadora láser</li>
+<li>Metacrilato</li>
+<li>Laminas de DM (conglomerado)</li>
+<li>Cartón</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Implementación en sus proyectos musicales</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157661408300306&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157661408300306&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157661408300306">https://www.flickr.com/photos/135835753@N08/albums/72157661408300306</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5634&#x2F;22790284177_b9b5e1bc13_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5637/23158328166_812e4b9d7e_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5650/23184425835_f5b6f14af2_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
+  </div>
+  <div class = "data">
+    <ul>
+    <li> <strong> Fecha </strong> <p>20/1/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Berklee college of Music, Valencia</p>
+ </li>
+    <li> <strong> Duración </strong> <p>4h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>30</p>
+ </li>
+    <li> <strong> Edad </strong> <p>20 - 40</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
+  </div>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
+</div>
+<p style="page-break-after:always;"></p>
+
+<div class = "ficha pagina">
+  <div class = "main">
+    <h1> <p>We are the robots</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de un disfraz robótico usando materiales de manualidades y circuitos electrónicos</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Primer contacto con la electrónica básica y soft circuits</li>
+<li>Introducción a la tecnología digital en una escuela de arte</li>
+<li>Introducción al prototipado rápido</li>
+<li>Nuevos materiales ( adhesivo de cobre, hilo conductor, ...)</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Explicación de cómo crear un circuito electrónico básico</li>
+<li>Realización de un disfraz con electrónica</li>
+<li>Presentación y video</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Cartones</li>
+<li>Materiales de manualidades</li>
+<li>Rotuladores y hojas</li>
+<li>Palitos</li>
+<li>Electrónica básica: leds, pilas de botón, motores dc</li>
+<li>Adhesivo de cobre</li>
+<li>Componentes del Kit de robótica de BQ preprogramados</li>
+<li>Hilo conductor</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Introducción a la electrónica digital programable</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157661158530720&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157661158530720&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157661158530720">https://www.flickr.com/photos/135835753@N08/albums/72157661158530720</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5635&#x2F;23352812425_1882c64c5c_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5681/22984860979_5b56cd3ddc_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5633/22984780489_c482cbb783_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
+  </div>
+  <div class = "data">
+    <ul>
+    <li> <strong> Fecha </strong> <p>26/11/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Hacklab Almeria</p>
+ </li>
+    <li> <strong> Duración </strong> <p>6h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>70</p>
+ </li>
+    <li> <strong> Edad </strong> <p>20-50</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
+  </div>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
+</div>
+<p style="page-break-after:always;"></p>
+
+<div class = "ficha pagina">
+  <div class = "main">
+    <h1> <p>Hackathon Miniblip</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Hackathón de electrónica y programación usando la placa Miniblip</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Primer contacto con la placa Miniblip</li>
+<li>Desarrollar nuevas herramientas para facilitar su programación, asi como ejemplos para utilizarla.</li>
+<li>Utilización de la miniblip</li>
+<li>Trabajo con hadware y software libre</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Muestra de características de la placa Miniblip</li>
+<li>Creación de un repositorio online en github para participar y compartir el trabajo</li>
+<li>Soldar componentes a la placa de forma individual</li>
+<li>Trabajo colaborativo a modo &quot;hackathon&quot; programando la placa</li>
+<li>Exposición de los resultados</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Miniblip</li>
+<li>Soldadores</li>
+<li>Portátiles</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Creación de herramientas de programacion y ejemplos más complejos.</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659655510523&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659655510523&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157659655510523">https://www.flickr.com/photos/135835753@N08/albums/72157659655510523</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm1.staticflickr.com&#x2F;762&#x2F;23502410985_5b61e5c77a_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/737/23419886481_2669f8f606_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5809/23502366465_cbaf30701a_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
+  </div>
+  <div class = "data">
+    <ul>
+    <li> <strong> Fecha </strong> <p>30/11/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Universidad de Granada, Granada</p>
+ </li>
+    <li> <strong> Duración </strong> <p>1 día y medio</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>40</p>
+ </li>
+    <li> <strong> Edad </strong> <p>18-50</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>18-&gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
+  </div>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
+</div>
+<p style="page-break-after:always;"></p>
+
+<div class = "ficha pagina">
+  <div class = "main">
+    <h1> <p>Graffitis interactivos</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de un graffiti en un mural combinando electrónica</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Aprendizaje colaborativo</li>
+<li>Programación Arduino y electrónica</li>
+<li>Hardware y software libre</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Diseñar un grafiti interactivo</li>
+<li>Después de definir la interacción del mural</li>
+<li>Implementación por equipos:
 equipo 1. Soldar LEDs
 equipo 2. Programar ardunos
 equipo 3. Implementar la tecnología en el mural
-equipo 4. Realizar el graffiti
-Presentación final
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Aprendizaje colaborativo
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Cortadora láser
-Rotuladores y hojas
-Pinturas en spray
-Pintura conductora spray
-Copper tape e hilo conductor
-Cartulinas
-Portátiles
-Componentes electrónicos del kit de robótica BQ
-LEDs RGB
-Piezas impresas
-Impresora 3D
-Soldadores y cables
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Introducción a técnicas de soldadura
-Introducción a la cortadora laser&#x2F;viniladora
-Finalizar diseño ( graffities , pinturas, etc)
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="">   </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+equipo 4. Realizar el graffiti</li>
+<li>Presentación final</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Cortadora láser</li>
+<li>Rotuladores y hojas</li>
+<li>Pinturas en spray</li>
+<li>Pintura conductora spray</li>
+<li>Copper tape e hilo conductor</li>
+<li>Cartulinas</li>
+<li>Portátiles</li>
+<li>Componentes electrónicos del kit de robótica BQ</li>
+<li>LEDs RGB</li>
+<li>Piezas impresas</li>
+<li>Impresora 3D</li>
+<li>Soldadores y cables</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Crear nuevas interacciones usando cámara y proyectores</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659474852694&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157659474852694&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157659474852694">https://www.flickr.com/photos/135835753@N08/albums/72157659474852694</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm6.staticflickr.com&#x2F;5673&#x2F;23316256731_ce54ef2d57_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm6.staticflickr.com/5664/23398762125_7b5f68108a_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/703/23398667165_2829248601_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 28&#x2F;11&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Graffiti Interactivo </p>
-    <p> <strong> Duración </strong> 1 día </p>
-    <p> <strong> N. participantes </strong> 60 </p>
-    <p> <strong> Edad </strong> 12-50 </p>
-    <p> <strong> Edad Recomendada </strong> 8-&gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>28/11/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Universidad de Granada</p>
+ </li>
+    <li> <strong> Duración </strong> <p>1 día</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>60</p>
+ </li>
+    <li> <strong> Edad </strong> <p>12-50</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Introducción a herramientas de fabricación digital </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
-Introducción de la actividad y materiales
-Breve introducción a la impresión 3D y cortadora Laser
-Por equipos realizar una escultura que integre elementos de fabricación digital con
-materiales tradicionales propios de la escultura
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con la fabricación digital y sus posibilidades
-Trabajo en equipo.
-Introducción a nuevos materiales tecnológicos
-Introducción a la filosofía del código abierto
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Electrónica básica: leds, pilas de botón, motores dc
-Copper tape
-Pegamento
-miniblip
-Palitos
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Imprimir pieza 3d y explorar nuevos materiales tecnológicos
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="">   </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Sonido, imagen y programación</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Creación de un sintentizador musical y visual usando Processing y Arduino</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Programación de electronica programable con Arduino</li>
+<li>Programación para generar contenido visual con Processing</li>
+<li>Introducción a la síntesis de sonido</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Presentación del equipo y de los participantes preguntando sus conocimientos sobre electronica y programación.</li>
+<li>Grupos de 2-3 personas.</li>
+<li>Explicación de los componentes botón y potenciometro y el uso de estos con Arduino IDE.</li>
+<li>Introducción a la programación con Processing.</li>
+<li>Construcción de un sintetizador uniendo la parte hechas con Arduino y Processing</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Componentes electrónicos del kit de robótica BQ</li>
+<li>Ordenadores</li>
+<li>Proyector</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Creación de un sintetizador más sofisticado. Creación de una caja para el controlador usando diseño e impresión 3d</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157661826129460&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157661826129460&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157661826129460">https://www.flickr.com/photos/135835753@N08/albums/72157661826129460</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm1.staticflickr.com&#x2F;773&#x2F;23456374730_2caaf70609_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/781/23752122965_b29419da00_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm1.staticflickr.com/742/23643512002_fd5453dcb5_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 14&#x2F;12&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Escuela de Arte Toledo </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 30 </p>
-    <p> <strong> Edad </strong> 18-50 </p>
-    <p> <strong> Edad Recomendada </strong> 8-&gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>11/12/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Salesianos, Puertollano</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>30</p>
+ </li>
+    <li> <strong> Edad </strong> <p>16-24</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>12 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 
 <div class = "ficha pagina">
   <div class = "main">
-    <h1> Sonido, imagen y programación </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Presentación del equipo y de los participantes preguntando sus conocimientos sobre electronica y programación.
-Grupos de 2-3 personas.
-Introducción sobre las uilización y programación de algunos componentes electrónicos del kit de bq.
-Introducción a la programación con Arduino IDE.
-Introducción a la programación con Processing.
-Construcción de un sintetizador que mezclara ambas tecnologias.
- </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Primer contacto con electronica digital y analógica mezclada con programación de interfaces mediante Processing.
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Componentes electrónicos del kit de robótica BQ
-Ordenadores
-Proyector
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Fabricación de dichas soluciones con un acabado más avanzado.
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="">   </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
+    <h1> <p>Esculptura Tradicional y Contemporánea</p>
+ </h1>
+    <div class="description"> <h2> Descripción </h2> <p>Introducción a herramientas de fabricación digital</p>
+ </div>
+    <div class = "goals"> <h2> Metas </h2> <ul>
+<li>Introducción de la actividad y materiales</li>
+<li>Breve introducción a la impresión 3D y cortadora Laser</li>
+<li>Por equipos realizar una escultura que integre elementos de fabricación digital con materiales tradicionales propios de la escultura</li>
+<li>Funcionamento de una impresora y Cortadora Laser (divulgativo)</li>
+<li>Nuevos materiales y procesos artísticos para la escultura</li>
+</ul>
+ </div>
+    <div class = "steps"> <h2> Pasos </h2> <ol>
+<li>Primer contacto con la fabricación digital y sus posibilidades</li>
+<li>Formación de equipos de 2-4 personas</li>
+<li>Cada equipo recibe una conjunto de piezas cortadas con laser e impresas en 3d</li>
+<li>Trabajo en equipo</li>
+<li>Presentación</li>
+</ol>
+ </div>
+    <div class = "materials"> <h2> Materiales </h2> <ul>
+<li>Electrónica básica: leds, pilas de botón, motores dc</li>
+<li>Materiales craft</li>
+<li>Materiales artesanales tradionales</li>
+<li>Miniblip</li>
+</ul>
+ </div>
+    <div class = "nextstep"> <h2> Siguientes pasos </h2> <p>Imprimir pieza 3d y explorar nuevos materiales tecnológicos</p>
+ </div>
+    <!-- <div class = "references"> <h2> Referencias </h2>  </div> -->
+    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="&lt;p&gt;&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157662618076589&quot;&gt;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;135835753@N08&#x2F;albums&#x2F;72157662618076589&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+"> <p><a href="https://www.flickr.com/photos/135835753@N08/albums/72157662618076589">https://www.flickr.com/photos/135835753@N08/albums/72157662618076589</a></p>
+ </a>  </div>
+  </div>
+  <div class = "images">
+    <ul class = "img_list">
+    <li style="background: url('https:&#x2F;&#x2F;farm2.staticflickr.com&#x2F;1554&#x2F;24173637261_446c5bd9d0_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm2.staticflickr.com/1505/24173551501_ef15a3d452_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    <li style="background: url('https://farm2.staticflickr.com/1613/24173557451_58fcf43fa5_z_d.jpg');width: 295px;height: 250px;background-size: cover; display: inline-block"></li>
+    </ul>
   </div>
   <div class = "data">
-    <p> <strong> Fecha </strong> 11&#x2F;12&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Salesianos, Puertollano </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 30 </p>
-    <p> <strong> Edad </strong> 16-24 </p>
-    <p> <strong> Edad Recomendada </strong> 12-&gt;
-    <p> <strong> Dificultad </strong> 
+    <ul>
+    <li> <strong> Fecha </strong> <p>14/12/2015</p>
+ </li>
+    <li> <strong> Lugar </strong> <p>Escuela de Arte Toledo</p>
+ </li>
+    <li> <strong> Duración </strong> <p>3h</p>
+ </li>
+    <li> <strong> N. participantes </strong> <p>30</p>
+ </li>
+    <li> <strong> Edad </strong> <p>18-50</p>
+ </li>
+    <li> <strong> Edad Recomendada </strong> <p>8 &gt;</p>
+</li>
+    <li> <strong> Dificultad </strong> </li>
+    </ul>
   </div>
-  <p class = "bottom"> Hola </p>
-</div>
-<p style="page-break-after:always;"></p>
-
-<div class = "ficha pagina">
-  <div class = "main">
-    <h1> Taller programación Zowi </h1>
-    <div class="description"> <h2> Descripción </h2>  <p>  </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p> </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Portátiles
-Proyector
-Zowi
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p> </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="">   </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
-  </div>
-  <div class = "data">
-    <p> <strong> Fecha </strong> 3&#x2F;11&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Robotaires, Gerona </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong>  </p>
-    <p> <strong> Edad </strong>  </p>
-    <p> <strong> Edad Recomendada </strong> 
-    <p> <strong> Dificultad </strong> 
-  </div>
-  <p class = "bottom"> Hola </p>
-</div>
-<p style="page-break-after:always;"></p>
-
-<div class = "ficha pagina">
-  <div class = "main">
-    <h1> Hackea la Oca </h1>
-    <div class="description"> <h2> Descripción </h2>  <p> Utilizar juegos tradicionales y hackearlos usando elementos contemporáneos </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p>Colaboración y trabajo en equipo
-Introducción al juego de la oca
-Primer contracto con la electrónica (soft circuits)
-Diferencias de un circuito en serie y otro en paralelo
-¿Cómo se hace un botón?
-Diseño de nuevas reglas de juego
-Introducir elementos interactivos con electrónica
-Jugar varias partidas con el juego propuesto ( rotativo)
- </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p>Grupos de 5 con un juego de la oca y diversos Materiales
-Jugar al juego de la oca una vez para conocer las reglas
-Explicar como funcionan los circuitos simples a los padres &#x2F; mentores
-Mentores explican a los chic@s
-Pensar en nuevas reglas e interacciones
-Implementación
-Jugar de nuevo al juego de la oca
- </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Electrónica básica: leds, pilas de botón, motores dc
-Adhesivo de cobre
-Pegamento
-Juego de la Oca
-Palitos
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p>Compartir las ideas
-Mejoras e implementación
- </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="">   </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
-  </div>
-  <div class = "data">
-    <p> <strong> Fecha </strong> 14&#x2F;11&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> 3D SOMA </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong> 30 </p>
-    <p> <strong> Edad </strong> 8-50 </p>
-    <p> <strong> Edad Recomendada </strong> 8 &gt;
-    <p> <strong> Dificultad </strong> 
-  </div>
-  <p class = "bottom"> Hola </p>
-</div>
-<p style="page-break-after:always;"></p>
-
-<div class = "ficha pagina">
-  <div class = "main">
-    <h1> Protocoder </h1>
-    <div class="description"> <h2> Descripción </h2>  <p>  </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p> </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Portátiles
-Proyector
-Moóviles
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p> </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="">   </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
-  </div>
-  <div class = "data">
-    <p> <strong> Fecha </strong> 16&#x2F;11&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Robotaires, Gerona </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong>  </p>
-    <p> <strong> Edad </strong>  </p>
-    <p> <strong> Edad Recomendada </strong> -&gt;
-    <p> <strong> Dificultad </strong> 
-  </div>
-  <p class = "bottom"> Hola </p>
-</div>
-<p style="page-break-after:always;"></p>
-
-<div class = "ficha pagina">
-  <div class = "main">
-    <h1> Protocoder </h1>
-    <div class="description"> <h2> Descripción </h2>  <p>  </p> </div>
-    <div class = "goals"> <h2> Metas </h2> <p> </p> </div>
-    <div class = "steps"> <h2> Pasos </h2>  <p> </p> </div>
-    <div class = "materials"> <h2> Materiales </h2>  <p>Portátiles
-Proyector
-Moóviles
- </p> </div>
-    <div class = "nextstep"> <h2> Siguientes pasos </h2>  <p> </p> </div>
-    <div class = "references"> <h2> Referencias </h2> <p> <p>  </p> </div>
-    <div class ="albumUrl"><h2> Album de Flickr </h2> <a href="">   </a>  </div>
-    <div class = "images">
-      <ul class = "img_list">
-        <li style="background: url('https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg');width: 200px;height: 200px;background-size: cover;"></li>
-      </ul>
-      <img src = "https://farm2.staticflickr.com/1553/23627890224_e8a4031995_k_d.jpg" style ="width: 200px;height: 200px;"></li>
-    </div>
-  </div>
-  <div class = "data">
-    <p> <strong> Fecha </strong> 16&#x2F;11&#x2F;2015 </p>
-    <p> <strong> Lugar </strong> Robotaires, Gerona </p>
-    <p> <strong> Duración </strong> 3h </p>
-    <p> <strong> N. participantes </strong>  </p>
-    <p> <strong> Edad </strong>  </p>
-    <p> <strong> Edad Recomendada </strong> -&gt;
-    <p> <strong> Dificultad </strong> 
-  </div>
-  <p class = "bottom"> Hola </p>
+  <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
 </div>
 <p style="page-break-after:always;"></p>
 

@@ -1,41 +1,41 @@
 ---
 date:         28/11/2015
-place:        Graffiti Interactivo
-title:        Arte y Tecnología. Aprendizaje colaborativa
-description:  |
-              Diseñar un grafiti interactivo
-              Después de definir la interacción del mural se trabaja por equipos:
+place:        Universidad de Granada
+title:        Graffitis interactivos
+description:  Creación de un graffiti en un mural combinando electrónica
+goals:        |
+              - Aprendizaje colaborativo
+              - Programación Arduino y electrónica
+              - Hardware y software libre
+steps:        |
+              1. Diseñar un grafiti interactivo
+              2. Después de definir la interacción del mural
+              3. Implementación por equipos:
               equipo 1. Soldar LEDs
               equipo 2. Programar ardunos
               equipo 3. Implementar la tecnología en el mural
               equipo 4. Realizar el graffiti
-              Presentación final
-
-goals:        |
-              Aprendizaje colaborativo
-
+              3. Presentación final
 materials:    |
-              Cortadora láser
-              Rotuladores y hojas
-              Pinturas en spray
-              Pintura conductora spray
-              Copper tape e hilo conductor
-              Cartulinas
-              Portátiles
-              Componentes electrónicos del kit de robótica BQ
-              LEDs RGB
-              Piezas impresas
-              Impresora 3D
-              Soldadores y cables
-content:    |
-              Programación Arduino
-              Hardware y software libre
-nextstep: |
-              Introducción a técnicas de soldadura
-              Introducción a la cortadora laser/viniladora
-              Finalizar diseño ( graffities , pinturas, etc)
+              - Cortadora láser
+              - Rotuladores y hojas
+              - Pinturas en spray
+              - Pintura conductora spray
+              - Copper tape e hilo conductor
+              - Cartulinas
+              - Portátiles
+              - Componentes electrónicos del kit de robótica BQ
+              - LEDs RGB
+              - Piezas impresas
+              - Impresora 3D
+              - Soldadores y cables
+nextstep:     |
+              Crear nuevas interacciones usando cámara y proyectores
 duration:     1 día
 age:          12-50
-age_recomm:   8->
+age_recomm:   8 >
 number:       60
-images:       [img1.png, img2.png]
+albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157659474852694
+img1:         https://farm6.staticflickr.com/5673/23316256731_ce54ef2d57_z_d.jpg
+img2:         https://farm6.staticflickr.com/5664/23398762125_7b5f68108a_z_d.jpg
+img3:         https://farm1.staticflickr.com/703/23398667165_2829248601_z_d.jpg

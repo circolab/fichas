@@ -1,0 +1,32 @@
+---
+date:         09/11/2015
+place:        Colegio Monserrat, Barcelona
+title:        DIY "Operación"
+description:  Hacer un juego utilizando electrónica al estilo juego "operación"
+goals:        |
+              - Enseñar electrónica básica
+              - Conceptos del movimiento de software libre
+              - Desarrollar la capacidad crítica
+              - Desarrollar la capacidad artística
+steps:        |
+              1. Grupos de 5
+              2. Cada grupo recibe un set de materiales
+              3. Cada grupo tiene que descubrir como hacer un circuito en serie y otro en paralelo
+              4. Se diseña el juego
+              5. Creación del juego
+              6. Presentación
+materials:    |
+              - Cinta de cobre
+              - Pilas de botón
+              - Leds
+              - Folios
+              - Rotuladores de colores
+nextstep:     Kit de electrónica de BQ
+duration:     3h
+age:          14-16
+age_recomm:   6 >
+number:       30
+albumUrl:     https://www.flickr.com/photos/135835753@N08/sets/72157663939049995
+img1:         https://farm2.staticflickr.com/1675/24491695632_409885568b_z_d.jpg
+img2:         https://farm2.staticflickr.com/1698/24304481320_c3b7ceb7b4_z_d.jpg
+img3:         https://farm2.staticflickr.com/1658/24232245139_f5276f8650_z_d.jpg

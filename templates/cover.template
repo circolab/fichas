@@ -1,8 +1,40 @@
-<p>
-Presentación del equipo y de los participantes preguntando los superpoderes de cada uno.
-Presentación del equipo y de los participantes haciendo dibujos de la persona que tienen a su derecha.
-Presentación del equipo y de los participantes preguntando qué se ven estudiando o trabajando dentro de unos años.
+<div class = "magentaBg">
+  <div class = "ficha pagina magentaBg">
+    <div class = "main">
+      <h1 class = "portada">Talleres CIRCOLAB</h1>
+    </div>
+  </div>
+
+  <p style="page-break-after:always;"></p>
 
 
-Introducción a el proyecto Circolab: La furgoneta, máquinas y materiales
-</p>
+  <div class = "ficha pagina magentaBg">
+    <div class = "mainintro">
+
+    <p class = "intro">
+      Este documento contiene un resumen de una gran parte de los talleres de CIRCOLAB <br />
+      Todos los talleres tienen un proceso similar que se detallan a continuación
+    </p>
+
+    <ol class = "introol">
+      <li>Presentación del equipo y de los participantes mediante un "icebreaker"
+
+        <ul>
+          <li>¿Cuál es tu superpoder?</li>
+          <li>Dibuja a la persona que tienes a tu derecha y luego preséntala</li>
+          <li>¿Qué vas a estudiar o dónde vas a trabajar dentro de unos años?</li>
+        </ul>
+
+      </li>
+
+      <li>Introducción a el proyecto Circolab: La furgoneta, máquinas y materiales</li>
+      <li>Introducción al taller</li>
+      <li>Trabajo</li>
+      <li>Minipresentación</li>
+    </ol>
+
+    </div>
+    <p class = "bottom"> CIRCOLAB - Una iniciativa de BQ </p>
+  </div>
+</div>
+<p style="page-break-after:always;"></p>

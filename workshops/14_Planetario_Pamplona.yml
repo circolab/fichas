@@ -4,25 +4,25 @@ place:        Planetario
 title:        Cosmic Car / Las leyes de Newton
 description:  Explicación de la 3a Ley de Newton usando un Kit DIY para la constucción de un coche espacial
 goals:        |
-              Diseño de un coche propulsado con un globo
-              Manualidades para trabajar con niños
-              Demostración de la tercera ley de Newton: Principio de acción y reacción
-              Demostración de como funciona una cortadora láser
+              - Diseño de un coche propulsado con un globo
+              - Manualidades para trabajar con niños
+              - Demostración de la tercera ley de Newton: Principio de acción y reacción
+              - Demostración de como funciona una cortadora láser
 steps:        |
-              Introducción al kit de materiales Cosmic Car
-              División de la clase en grupos de 2
-              Cada grupo hace un Cosmic Car sin explicarles como se hace
-              Iteración de diseño hasta conseguir un movimiento más óptimo
-              Asignación de una misión para cada equipo (ie: enviar galletas a la luna)
-              Implementación de un segundo Cosmic Car para la misión
-              Presentación de misión - solución
-              Carrera
+              1. Introducción al kit de materiales Cosmic Car
+              2. División de la clase en grupos de 2
+              3. Cada grupo hace un Cosmic Car sin explicarles como se hace
+              4. Iteración de diseño hasta conseguir un movimiento más óptimo
+              5. Asignación de una misión para cada equipo (ie: enviar galletas a la luna)
+              6. Implementación de un segundo Cosmic Car para la misión
+              7. Presentación de misión - solución
+              8. Carrera
 materials:    |
-              Pegamento
-              Palitos
-              Piezas cortadas con la cortadora láser
-              Globos
-              Materiales craft
+              - Pegamento
+              - Palitos
+              - Piezas cortadas con la cortadora láser
+              - Globos
+              - Materiales craft
 nextstep:     |
               Compartir las ideas
               Crear un escenario nuevo y búsqueda e implementación de la solución
@@ -30,5 +30,7 @@ duration:     4h
 age:          11-12
 age_recomm:   8 >
 number:       30
-images:       [img1.png, img2.png]
 albumUrl:     https://www.flickr.com/photos/135835753@N08/albums/72157657954438554
+img1:         https://farm1.staticflickr.com/617/22448059305_e9254f9eea_z_d.jpg
+img2:         https://farm1.staticflickr.com/709/22261236379_6133c92a2a_z_d.jpg
+img3:         https://farm1.staticflickr.com/776/22260081270_c8cea1cf2a_z_d.jpg

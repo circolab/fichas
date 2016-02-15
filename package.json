@@ -4,11 +4,13 @@
   "description": "Transform yaml files to PDF using a html+CSS template",
   "dependencies": {
     "js-yaml": "^3.5.2",
-    "mustache": "^2.2.1"
+    "mustache": "^2.2.1",
+    "marked":   "0.3.5",
+    "chalk":  "1.1.1"
   },
   "engines": {
     "node": "5.4.1"
   },
   "author": "victornomad",
-  "license": "MIT"
+  "license": "GPL3"
 }
